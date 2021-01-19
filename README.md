@@ -5,12 +5,24 @@
 
 **이 문서의 목적은  혼자 SageMaker 의 학습을 하기 위한 자료 및 링크가 있습니다. 아래와 같은 큰 목차에 관련 정보가 있으니 참고 하세요.**
 
+* 특집 이벤트
 * SageMaker 선수 지식 및 101
 * SageMaker 입문
 * SageMaker 기본
 * 유용한 자료 (백서 등)
 * 체계적인 교육
 * 대학교 AWS SageMaker 커리큘럼 수업 예시
+
+## 특집 이벤트 (2020 Re-Invent AI/ML 서비스 소개)
+
+Deep Dive - 신규 AI 서비스 | AWS Hero Talk - 딥레이서 살펴보기 :: AWS re:Invent Daily Recap (12월 3일)
+
+* https://www.youtube.com/watch?v=CtRMgSDbwA4&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=7
+
+AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent Daily Recap (12월 9일)
+
+* https://www.youtube.com/watch?v=8fhQHpg9r9Y&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=20
+* 
 
 ## SageMaker 선수 지식 및 101
 
