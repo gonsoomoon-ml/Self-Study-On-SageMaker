@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2021. 01. 19**
+**마지막 업데이트: 2021.02.04**
 **작성자: 문곤수**
 
 **이 문서의 목적은  혼자 SageMaker 의 학습을 하기 위한 자료 및 링크가 있습니다. 아래와 같은 큰 목차에 관련 정보가 있으니 참고 하세요.**
@@ -22,7 +22,7 @@ Deep Dive - 신규 AI 서비스 | AWS Hero Talk - 딥레이서 살펴보기 :: A
 AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent Daily Recap (12월 9일)
 
 * https://www.youtube.com/watch?v=8fhQHpg9r9Y&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=20
-* 
+
 
 ## SageMaker 선수 지식 및 101
 
@@ -46,14 +46,24 @@ AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent
             * https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/nbi.html
         * https://www.ciokorea.com/tags/11396/R/118326
         * https://scikitlearn.tistory.com/73
-    * 
+    
+    
+* AWS 기계 학습 교육 공식 웹사이트 
+    * **이것은 자주 봐야할 곳 입니다. 지금은 스킵 하셔도 됩니다.**
+    - **개발자, 데이터 사이언티스트, 데이터 플랫폼 엔지니어, 비즈니스 의사 결정권자" 의 역할 별로 강좌가 준비되어 있습니다.** 
+    - 기계 학습(ML), 인공 지능(AI), 딥러닝(DL)을 비즈니스에 적용하여 새로운 인사이트와 가치를 창출하는 방법을 배웁니다. ML을 활용하여 Amazon에서 해결한 문제를 바탕으로 실제 사례를 살펴보고 실습을 수행합니다. 다수가 무료로 제공되는 65여 개 과정을 이용할 수 있습니다.
+    - https://aws.amazon.com/ko/training/learn-about/machine-learning/
+
+
 * 머신 러닝 기본 (기타 자료를 보셔도 됩니다.)
     * 생활 코딩: 머신러닝 
         * https://opentutorials.org/course/4548
+        
+        
 * 다커 컨테이너 동작 방식 - **이것은  옵션 입니다. 지나 치셔도 됩니다.**
     * Hello Docker
         * https://github.com/mullue/hello-docker
-    * 
+    
 
 
 
@@ -142,14 +152,14 @@ AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent
         * 딥 러닝을 이용한 자연어 처리 입문
         * https://wikidocs.net/book/2155
 
-## 외부 체계적인 교육
+## 체계적인 교육
 
 * Coursera Sagemaker - https://www.coursera.org/lecture/aws-machine-learning/introduction-to-amazon-sagemaker-QugTh
 * Coursera computer vision - https://www.coursera.org/learn/aws-computer-vision-gluoncv
 * Deep Learning Specialisation (코세라)
     * 총 5개의 코스로 구성됨: Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks(CNN), Sequence Models(RNN)
     * https://www.coursera.org/specializations/deep-learning
-* - Udacity nanodegree 코스 - https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t
+* Udacity nanodegree 코스 - https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t
 
 
 
@@ -157,35 +167,36 @@ AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent
 
 1. 전체 과정 소개
 2. AWS 활용 준비하기, AWS Educate 가입 등
-3 실습 환경 구축 SageMaker 소개, Jupyter Notebook 인스턴스 생성 실습
+3. 실습 환경 구축 SageMaker 소개, Jupyter Notebook 인스턴스 생성 실습
 
 * 기초 핸즈온 수행 (위의 SageMaker 선수 지식 및 101 과정 참고)
 
-4 기계학습 소개 이론
-5 선형회귀분석 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
+4. 기계학습 소개 이론
+5. 선형회귀분석 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
 
 * Regression with Amazon SageMaker Linear Learner algorithm
     * https://github.com/aws/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/linear_learner_abalone/Linear_Learner_Regression_csv_format.ipynb
 
-6  트리 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
+6. 트리 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
 
 * *Gradient Boosted Trees를 이용하는 지도학습: 편향된 클래스의 이진 분류 예측문제 해결*
 * https://github.com/mullue/xgboost/blob/master/1.xgboost_direct_marketing_sagemaker.ipynb
 
-7 인공신경망 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
+7. 인공신경망 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
 
-8 k-means 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
+8. k-means 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
 
 * Analyze US census data for population segmentation using Amazon SageMaker
     * https://github.com/aws/amazon-sagemaker-examples/blob/master/introduction_to_applying_machine_learning/US-census_population_segmentation_PCA_Kmeans/sagemaker-countycensusclustering.ipynb
 
-9 텍스트 데이터 분석 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
+9. 텍스트 데이터 분석 이론 및 Jupyter Notebook 코드리뷰 이론 + 실습
 
 * 토픽 모델링을 사용한 온라인 상품 부정 리뷰 분석
     * https://github.com/gonsoomoon-ml/topic-modeling
 
-10 Amazon SageMaker 를 활용한 모델 배포 실습
+10. Amazon SageMaker 를 활용한 모델 배포 실습
 
 * TensorFlow 2 프로젝트 워크플로우를 SageMaker에서 실행하기
     * https://github.com/mullue/sm-tf2/blob/master/tf-2-workflow.ipynb
+
 
