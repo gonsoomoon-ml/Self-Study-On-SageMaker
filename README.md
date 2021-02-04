@@ -39,13 +39,17 @@ AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent
     * SageMaker 10분 튜토리얼
         * 세이지 메이커 콘솔에서 노트북 인스턴스를 설치하고, 제공된 파이썬 코드를  Copy & Paste를 하면 모델 빌딩, 구축, 배포를 확인할 수 있습니다. 코드의 이해는 일단 지나치시고, 전체적으로 동작하는 원리만 아는 것으로 초점을 맞추어 주세요.
         * 아래를 진행할 시에 리젼은 `us-west-2, us-east-1, us-east-2, eu-west-1 중에 하나를 선택해야 합니다. : 빌트인 내장 알고리즘 컨테이너를 위 리젼에서 가져옴`
-        * 자주 발생하는 에러는 버킷 생성이 안되어 납니다. 참고 하세요.
             * https://aws.amazon.com/ko/getting-started/hands-on/build-train-deploy-machine-learning-model-sagemaker/
-    * 다른 노트북 인스턴스 사용 예제
-        * Amazon SageMaker 노트북 인스턴스 사용
-            * https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/nbi.html
-        * https://www.ciokorea.com/tags/11396/R/118326
-        * https://scikitlearn.tistory.com/73
+            - **현재의 코드가 sagemaker 1.xx 로 되어 있어서 에러가 납니다. 아래 클릭해서 해결 방법을 보세요.**
+                - [workaround-sm-10-tutorial](workaround/workaround-sm-10-tutorial.md)
+                
+
+        
+* 다른 노트북 인스턴스 사용 예제
+    * Amazon SageMaker 노트북 인스턴스 사용
+        * https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/nbi.html
+    * https://www.ciokorea.com/tags/11396/R/118326
+    * https://scikitlearn.tistory.com/73
     
     
 * AWS 기계 학습 교육 공식 웹사이트 
@@ -198,5 +202,7 @@ AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent
 
 * TensorFlow 2 프로젝트 워크플로우를 SageMaker에서 실행하기
     * https://github.com/mullue/sm-tf2/blob/master/tf-2-workflow.ipynb
+
+
 
 
