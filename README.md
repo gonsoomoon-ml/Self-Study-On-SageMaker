@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2021.07.05**
+**마지막 업데이트: 2021.07.11**
 **작성자: 문곤수**
 
 ---
@@ -20,10 +20,15 @@
 ## 1. SageMaker 선수 지식 및 101
 
 * AWS Cloud 일반 지식 (S3, EC2, IAM 등) (초급/중급 정도 수준)
+
 * Python 코딩 (Pandas, Numpy 패키지 초급/중급 정도 수준)
-* SageMaker Video (1분 40초) 
-    * 전체적인 간략 소개 입니다.
-    * https://www.youtube.com/watch?v=jSrg1BgQzRo
+
+* SageMaker Video 비디오
+    * 2020년 6월 버전 (1분 40초) -->  [간단소개](https://www.youtube.com/watch?v=jSrg1BgQzRo)
+    - 2021년 2월 버전 (4분 46초) --> [Introduction to Amazon SageMaker](https://www.youtube.com/watch?v=Qv_Tr_BCFCQ)
+
+
+
 * AWS SageMaker 공식 웹 사이트
     * **이것은 자주 봐야할 곳 입니다. 처음에는 간단히 보시기 바랍니다.**
     * 전반적인 소개 및 가능한 다양한 리소스 정보를 접할 수 있습니다. 
@@ -85,8 +90,14 @@
 ## 3. 특집 이벤트 
 
 #### 2021 AI/ML Innovate
-- AWS 기반 기계 학습
-    - https://aws.amazon.com/ko/events/aws-innovate/machine-learning/
+- Amazon SageMaker SDK 2.x 사용법 (5가지 핵심 오브젝트) – 강성문:: AWS Innovate 2021
+    - https://www.youtube.com/watch?v=n2Ky1nZXyWo
+- Amazon SageMaker 기반 사전 훈련된 딥러닝 모델 손쉽게 배포하기 – 김대근:: AWS Innovate 2021
+    - https://www.youtube.com/watch?v=ZdOcrLKow3I
+- Amazon SageMaker를 통한 딥러닝 분산 학습 및 디버거 프로파일링 활용하기 – 최영준:: AWS Innovate 2021
+    - https://www.youtube.com/watch?v=lsTtoACAPj4
+- Amazon SageMaker와 CDK를 활용한 딥러닝 모델 서비스 현대화 기법 – 최권열:: AWS Innovate 2021
+    - https://www.youtube.com/watch?v=kn2DBjZW5W8
 
 
 
@@ -114,6 +125,15 @@
 
 * 공식 ML 블로그: 적용 사례, 다른 aws서비스와의 통합관련 예제나 기술 팁등 다양한 주제들이 다루어집니다.
     * aws ML blog(https://aws.amazon.com/ko/blogs/machine-learning/
+
+
+- Julien Simon의 (SageMaker 이멘젤리스트) 유튜브 비디오
+    - https://www.youtube.com/c/juliensimonfr/featured
+    
+
+- Experiment & Debugger
+    - 웹비나:  [How to Train and Tune Your Models with Amazon SageMaker - AWS Online Tech Talks](https://www.youtube.com/watch?v=Tnv6HsT1r4I)
+        - 모델의 반복적인 실험 및 디버깅을 통한 예시 (Network Pruning 예시) 
     
     
 * Use Case 별 예제 및 자료
