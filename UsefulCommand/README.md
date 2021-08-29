@@ -5,6 +5,9 @@
 
 ---
 
+#### 캐글 데이터 셋 다운로드 방법
+- [Kaggle Dataset 다운로드 방법](https://github.com/mullue/amazon-sagemaker-architecting-for-ml/blob/master/Starter-Code-kr/How_to_downlaod_kaggle_data/0.download_kaggle_dataset.ipynb)
+
 #### SageMaker Notebook Instance 에서 컨솔로 커널 접근 후 패키지 설치
 
 ```
