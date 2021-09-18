@@ -1,9 +1,27 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2021.08.30**
+**마지막 업데이트: 2021.09.18**
 **작성자: 문곤수**
 
 ---
+
+
+#### 파이썬에서 상위 폴더의 파일을 로딩 하는 방법
+
+- 아래와 같이 폴더 구조가 있다가 가정하고, 1_data_preparation.ipynb 노트북에서 아래와 같은 import를 사용하여 lookout_equipment_utils.py 안에 있는 함수를 로딩 함.
+
+``` 
+|-dataset
+ |-utils
+ | |-lookout_equipment_utils.py
+ | |-aws_matplotlib_light.py
+ |-notebooks
+ | |-1_data_preparation.ipynb
+ 
+
+sys.path.append('../utils')
+import lookout_equipment_utils as lookout 
+```
 
 #### 캐글 데이터 셋 다운로드 방법
 - [Kaggle Dataset 다운로드 방법](https://github.com/mullue/amazon-sagemaker-architecting-for-ml/blob/master/Starter-Code-kr/How_to_downlaod_kaggle_data/0.download_kaggle_dataset.ipynb)
