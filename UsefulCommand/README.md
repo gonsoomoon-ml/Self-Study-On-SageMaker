@@ -7,15 +7,23 @@
 
 ### \# 도커 관련 명령어
 
-- No space left (용량 부족시)
-```
-# 모든 컨테이너 모두 삭제
-docker container prune -f --all
-# 모든 이미지 모두 삭제
-docker image prune -f --all
-```
+#### No space left (용량 부족시)
 
-    - 도커로 사용으로 인한 시스템 용량 확보 --> [Docker의 prune 사용법](https://www.lainyzine.com/ko/article/docker-prune-usage-remove-unused-docker-objects/)
+- 모든 컨테이너 모두 삭제
+    - `docker container prune -f` 
+
+
+- 모든 이미지 모두 삭제
+    - `docker image prune -f --all`
+
+
+- 추가적인 용량 삭제가 필요하면 아래를 실행 하세요
+    - `rm -rf /tmp/tmp*`
+    
+    
+- 참조: 
+    - 도커로 사용으로 인한 시스템 용량 확보
+        - [Docker의 prune 사용법](https://www.lainyzine.com/ko/article/docker-prune-usage-remove-unused-docker-objects/)
     
 
 
