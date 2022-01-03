@@ -19,7 +19,8 @@
 
 - 8.세이지 메이커 사용하면서의 유용한 커맨드 및 지식이 필요하시면 아래 링크를 누르세요.
 
-    - [세이지 메이커 유용한 명령어 및 지식](UsefulCommand/README.md)
+    - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)
+    - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
 
 ---
 

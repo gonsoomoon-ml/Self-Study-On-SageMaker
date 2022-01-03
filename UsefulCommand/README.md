@@ -69,7 +69,3 @@ telnet
 ```
 
 
-# 유용한 지식
----
-
-- [모델 훈련을 위한 피쳐 선택 가이드](https://github.com/gonsoomoon-ml/fraud-detector-workshop/blob/main/code/phase0/prepare_data/Feature_Selection_Guide.md)
