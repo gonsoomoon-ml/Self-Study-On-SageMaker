@@ -68,4 +68,18 @@ apt install telnet
 telnet
 ```
 
+### \# Linux 에서 파일 폴더 및 파일 리스트 출력
 
+```
+find . | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
+
+예시 결과:
+ |-training_tensorflow
+ | |-tensorflow_train.py
+ | |-requirements.txt
+ |-1.1.download_data.ipynb
+ |-1.2.structuring_data.ipynb 
+ |-img
+ | |-cifar-10.png
+ | |-coco.png
+```
