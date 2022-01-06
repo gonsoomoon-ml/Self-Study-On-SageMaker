@@ -1,7 +1,7 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2021.11.03**
-**작성자: 문곤수**
+**마지막 업데이트: 2022.01.05**
+
 
 ---
 
@@ -22,9 +22,10 @@
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)
     - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
 
----
+
 
 ## 1. SageMaker 선수 지식 및 101
+---
 
 * AWS Cloud 일반 지식 (S3, EC2, IAM 등) (초급/중급 정도 수준)
 
@@ -68,9 +69,9 @@
     * Hello Docker
         * https://github.com/mullue/hello-docker
 
----
 
 ## 2. SageMaker 입문 
+---
 
 **목표: 세이지 메이커의 기본 구조와 사용법 알기**
 
@@ -92,9 +93,9 @@
         * 다이렉트 마케팅 (SageMaker 내장 알고리즘 XGBoost 사용)
             * https://github.com/mullue/xgboost (1번 노트북 진행)
 
----
 
 ## 3. 특집 이벤트 
+---
 
 #### 2021 AI/ML Innovate
 - Amazon SageMaker SDK 2.x 사용법 (5가지 핵심 오브젝트) – 강성문:: AWS Innovate 2021
@@ -116,10 +117,10 @@
 - AIML 기조연설 요약 및 Deep Dive - SageMaker 살펴보기 :: AWS re:Invent Daily Recap (12월 9일)
     * https://www.youtube.com/watch?v=8fhQHpg9r9Y&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=20
 
----
 
 
 ## 4. SageMaker 기본
+---
 
 ### **목표: 세이지 메이커의 유스 케이스별 사용 알기**
 
@@ -173,9 +174,10 @@
     * 워크샵
         *  동일 사이트의 reference 페이지 (https://www.sagemaker-workshop-kr.com/kr/references.html)
 
----
+
 
 ## 5. 유용한 자료 (백서 등)
+---
 
 * ML 프로젝트 전반에 대한 이해가 필요하시면 다음 AWS ML백서들이 도움이 되실 수 있습니다.
     * AWS 딥러닝 가이드 백서 입니다.
@@ -194,9 +196,9 @@
         * 딥 러닝을 이용한 자연어 처리 입문
         * https://wikidocs.net/book/2155
 
----
 
 ## 6. 체계적인 교육
+---
 
 * Coursera Sagemaker - https://www.coursera.org/lecture/aws-machine-learning/introduction-to-amazon-sagemaker-QugTh
 * Coursera computer vision - https://www.coursera.org/learn/aws-computer-vision-gluoncv
@@ -205,10 +207,20 @@
     * https://www.coursera.org/specializations/deep-learning
 * Udacity nanodegree 코스 - https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t
 
+
+
+## 7. 아카데믹스
 ---
+### 7.1 Amazon Science
+- Top articles in 2021
+    - https://www.amazon.science/latest-news/the-top-amazon-science-articles-of-2021)
+- Top blog posts in 2021
+    - https://www.amazon.science/latest-news/the-top-amazon-science-blog-posts-of-2021
+- Most downloaded papers in 2021
+    - https://www.amazon.science/latest-news/the-top-amazon-science-articles-of-2021
 
 
-## 7. 대학교 AWS SageMaker 커리큘럼 수업 예시
+### 7.2 대학교 AWS SageMaker 커리큘럼 수업 예시
 
 (1) 전체 과정 소개
 
