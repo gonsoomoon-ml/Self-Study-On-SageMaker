@@ -32,7 +32,7 @@
 * Python 코딩 (Pandas, Numpy 패키지 초급/중급 정도 수준)
 
 * SageMaker Video 비디오
-    * 2020년 6월 버전 (1분 40초) -->  [간단소개](https://www.youtube.com/watch?v=jSrg1BgQzRo)
+    * 2020년 9월 버전 (1분 40초) -->  [간단소개](https://www.youtube.com/watch?v=EhExK4JgXvE)
     - 2021년 2월 버전 (4분 46초) --> [Introduction to Amazon SageMaker](https://www.youtube.com/watch?v=Qv_Tr_BCFCQ)
 
 
