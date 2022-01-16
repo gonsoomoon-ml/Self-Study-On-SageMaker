@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.01.05**
+**마지막 업데이트: 2022.01.16**
 
 
 ---
@@ -11,7 +11,8 @@
 
 - [1. SageMaker 선수 지식 및 101](#1.-SageMaker-선수-지식-및-101)
 - [2. SageMaker 입문](#2.-SageMaker-입문)
-- [3. 특집 이벤트](#3.-특집-이벤트)
+- [3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크
+](#3.-특집-이벤트)
 - [4. SageMaker 기본](#4.-SageMaker-기본)
 - [5. 유용한 자료 (백서 등)](#5.-유용한-자료-(백서-등))
 - [6. 체계적인 교육](#6.-체계적인-교육)
@@ -94,8 +95,10 @@
             * https://github.com/mullue/xgboost (1번 노트북 진행)
 
 
-## 3. 특집 이벤트 
+## 3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크
 ---
+#### AWS AI/ML 리소스 허브
+- [AI/ML 리소스 허브](https://kr-resources.awscloud.com/aws-ai-and-machinelearning?sc_channel=el&sc_campaign=apac_field_t1_kr-aws-innovate-aiml_20220224_7014z000000rmip&sc_publisher=other&sc_country=kr&sc_geo=apj&sc_category=multi&sc_outcome=field&trkcampaign=innovate-ml&trk=el_spkrqr_kr_innovateaiml_22q1)
 
 #### 2021 AI/ML Innovate
 - Amazon SageMaker SDK 2.x 사용법 (5가지 핵심 오브젝트) – 강성문:: AWS Innovate 2021
@@ -118,6 +121,12 @@
     * https://www.youtube.com/watch?v=8fhQHpg9r9Y&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=20
 
 
+### AWS ML 전문가 코드 리파지토리
+- [Daekeun Kim](https://github.com/daekeun-ml)
+- [Leon Kang](https://github.com/mullue)
+- [Napkin-DL](https://github.com/Napkin-DL)
+- [lunarian60](https://github.com/lunarian60)
+- [Youngjin Kim](https://github.com/comeddy)
 
 ## 4. SageMaker 기본
 ---
