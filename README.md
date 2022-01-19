@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.01.16**
+**마지막 업데이트: 2022.01.19**
 
 
 ---
@@ -18,10 +18,11 @@
 - [6. 체계적인 교육](#6.-체계적인-교육)
 - [7. 아마존 사이언스](#7.-아마존-사이언스)
 
-- 8.세이지 메이커 사용하면서의 유용한 커맨드 및 지식이 필요하시면 아래 링크를 누르세요.
 
-    - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)
+- 8.세이지 메이커 간련한 지식 및 유용한 커맨드 입니다.
     - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
+    - [ML Ops on SageMaker](MLOps/README.md)
+    - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)
 
 
 
