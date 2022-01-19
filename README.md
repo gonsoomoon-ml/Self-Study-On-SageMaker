@@ -123,6 +123,7 @@
 
 
 ### AWS ML 전문가 코드 리파지토리
+- [AWS Korea 공식 코드 리파지토리](https://github.com/aws-samples/aws-ai-ml-workshop-kr)
 - [Daekeun Kim](https://github.com/daekeun-ml)
 - [Leon Kang](https://github.com/mullue)
 - [Napkin-DL](https://github.com/Napkin-DL)

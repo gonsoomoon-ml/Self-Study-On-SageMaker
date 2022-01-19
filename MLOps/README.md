@@ -51,6 +51,9 @@
 - 코드
     - 실습 시간: 약 1시간 
     - 블로그의 가이드 참조
+- 참고
+    - 이 블로그 실습의 한글 버전이 있습니다.
+        - https://github.com/mullue/sm-pipeline
 
 
 ### 1.4 [블로그, Oct 2021] Build Custom SageMaker Project Templates – Best Practices
