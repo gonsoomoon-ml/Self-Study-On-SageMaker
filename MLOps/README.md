@@ -92,6 +92,18 @@
     - 위의 링크 임.
 
 
+### 1.7 [워크샵, Oct 2021] Amazon SageMaker를 이용한 시계열 학습과 MLOps 구성
+- https://github.com/Napkin-DL/sm-informer-mlops-quicksight
+- 요약
+    - SageMaker에서 Time series 모델을 학습하는 방법과 함께 SageMaker Pipelines을 이용하여 간단한 MLOps를 구성하는 실습 과정입니다. 
+- 구현 내용    
+    - ![architecture.png](img/architecture.png)    
+- 코드
+    - 실습 시간: TBD
+    - 위의 링크 임.
+
+
+
 
 # 2. 고급
 
