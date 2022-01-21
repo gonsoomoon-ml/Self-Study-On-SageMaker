@@ -1,4 +1,18 @@
-# SageMaker 10분 튜토리얼 에러 해결 방법
+# 주요 트러블 슈팅
+**마지막 업데이트: 2022.01.21**
+
+---
+
+
+# 1. SageMaker Studio Notebook
+
+## 1.1 SageMaker Studio Notebook 에서 Shared Memory (shm) 제약 사항 (64MB) 에러
+- [관련 에러 및 워크라운드](sagemaker_studio_nb_shm_error.md)
+
+
+# 2. 기타
+
+## 2.1 SageMaker 10분 튜토리얼 에러 해결 방법
 ### 에러
 다음 코드 실행하고 
 - ```s3_input_train = sagemaker.s3_input(s3_data='s3://{}/{}/train'.format(bucket_name, prefix), content_type='csv')```
