@@ -28,6 +28,7 @@
 
 
 
+
 ### \# 파이썬에서 상위 폴더의 파일을 로딩 하는 방법
 
 - 아래와 같이 폴더 구조가 있다가 가정하고, 1_data_preparation.ipynb 노트북에서 아래와 같은 import를 사용하여 lookout_equipment_utils.py 안에 있는 함수를 로딩 함.
@@ -67,6 +68,9 @@ netstat
 apt install telnet
 telnet
 ```
+
+
+
 
 ### \# Linux 에서 파일 폴더 및 파일 리스트 출력
 

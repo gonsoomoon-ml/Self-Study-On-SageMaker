@@ -23,6 +23,7 @@
     - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
     - [ML Ops on SageMaker](MLOps/README.md)
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)
+    - [유용한 트러블 슈팅](workaround/README.md)
 
 
 
