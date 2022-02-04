@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.01.19**
+**마지막 업데이트: 2022.02.04**
 
 
 ---
@@ -192,13 +192,18 @@
 ---
 
 * ML 프로젝트 전반에 대한 이해가 필요하시면 다음 AWS ML백서들이 도움이 되실 수 있습니다.
-    * AWS 딥러닝 가이드 백서 입니다.
-        *  https://d1.awsstatic.com/whitepapers/Deep_Learning_on_AWS.pdf?did=wp_card&trk=wp_card
-    * ML Project 수행에 대한 베스트 프렉티스 가이드 입니다.
-        * -https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf?did=wp_card&trk=wp_card
-    * AWS ML Well Architect Framework (WAF)
+    - AWS 딥러닝 가이드 백서 입니다.
+        - [한글] AWS 기반 딥러닝 백서 (2019년 8월)
+            - https://d2908q01vomqb2.cloudfront.net/7b52009b64fd0a2a49e6d8a939753077792b0554/2020/08/06/Deep_Learning_on_AWS_KO-KR.pdf
+        - [영문] Deep Learning on AWS (2019년 8월)
+            - https://d1.awsstatic.com/whitepapers/Deep_Learning_on_AWS.pdf?did=wp_card&trk=wp_card
+    - ML Project 수행에 대한 베스트 프렉티스 가이드 입니다.
+        - https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf?did=wp_card&trk=wp_card
+    - AWS ML Well Architect Framework (WAF)
         * ML 의 WAF 내용 백서 입니다.
         * https://d1.awsstatic.com/whitepapers/architecture/wellarchitected-Machine-Learning-Lens.pdf
+        
+        
 * 외부 사이트
     * [medium.com](http://medium.com/) 에서 검색해서 사용
     * 비젼 딥 러닝
