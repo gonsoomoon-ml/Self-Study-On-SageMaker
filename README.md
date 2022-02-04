@@ -198,7 +198,7 @@
         - [영문] Deep Learning on AWS (2019년 8월)
             - https://d1.awsstatic.com/whitepapers/Deep_Learning_on_AWS.pdf?did=wp_card&trk=wp_card
     - ML Project 수행에 대한 베스트 프렉티스 가이드 입니다.
-        - https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf?did=wp_card&trk=wp_card
+        - 림크 깨짐: https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf?did=wp_card&trk=wp_card
     - AWS ML Well Architect Framework (WAF)
         * ML 의 WAF 내용 백서 입니다.
         * https://d1.awsstatic.com/whitepapers/architecture/wellarchitected-Machine-Learning-Lens.pdf
