@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2021.09.27**
+**마지막 업데이트: 2022.02.07**
 **작성자: 문곤수**
 
 ---
@@ -86,4 +86,24 @@ find . | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
  |-img
  | |-cifar-10.png
  | |-coco.png
+```
+
+### \# S3 버켓 오너십 변경
+- A 계정에서 B 계정 소유의 버켓에 파일 업로시에 B 계정이 소유하게 변경
+
+```
+import boto3
+
+client = boto3.client('s3')
+
+response = client.put_bucket_ownership_controls(
+    Bucket= bucket,
+    OwnershipControls={
+        'Rules': [
+            {
+                'ObjectOwnership': 'BucketOwnerPreferred'
+            },
+        ]
+    }
+)
 ```
