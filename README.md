@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.02.09**
+**마지막 업데이트: 2022.02.10**
 
 
 ---
@@ -95,6 +95,9 @@
     * 기본 Tabular 데이터를 사용: Tabular 데이타를 모델 빌딩, 훈련, 배포, 추론을 해볼 수 있는 예제 입니다.
         * 다이렉트 마케팅 (SageMaker 내장 알고리즘 XGBoost 사용)
             * https://github.com/mullue/xgboost (1번 노트북 진행)
+
+* 아래는 **공식 AWS 머신 러닝의 교육** 에 사용되는 많은 유용한 링크가 있는 Git 입니다. 꼭 한 번 눌러 봐주세요.
+    - [The Machine Learning pipeline on AWS](https://github.com/serithemage/AWS_AI_Study/tree/master/ML_Pipeline)
 
 
 ## 3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크
