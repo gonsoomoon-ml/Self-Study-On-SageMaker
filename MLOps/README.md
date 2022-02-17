@@ -1,6 +1,6 @@
 # ML OPs on SageMaker Step by Step
 
-**마지막 업데이트: 2022.01.19**
+**마지막 업데이트: 2022.02.17**
 
 
 ---
@@ -56,28 +56,8 @@
         - https://github.com/mullue/sm-pipeline
 
 
-### 1.4 [블로그, Oct 2021] Build Custom SageMaker Project Templates – Best Practices
-- https://aws.amazon.com/blogs/machine-learning/build-custom-sagemaker-project-templates-best-practices
-- 요약
-    - SageMaker Pipeline Project의 기본 내장 템블릿 의 작동 원리를 설명하고, 커스텀 템플릿으로 확장하는 방법에 대한 베스트 프렉티스를 설명 함.
-- 주요 내용    
-    - ![custome_template.png](img/custome_template.png)    
-- 코드
-    - 실습 시간: TBD
-    - https://github.com/aws-samples/sagemaker-custom-project-templates
 
-### 1.5 [블로그, Oct 2021] Enhance your machine learning development by using a modular architecture with Amazon SageMaker projects
-- https://aws.amazon.com/blogs/machine-learning/enhance-your-machine-learning-development-by-using-a-modular-architecture-with-amazon-sagemaker-projects/
-- 요약
-    - Service Catalgo Product 의 생성을 통하여 SageMaker Pipeline 커스텀 템플릿을 생성하는 방법을 실습 합니다. 
-    - S3 에 파일이 업로드되면, 세이지 메이커 파이프라인이 실행되어서 데이터 전처리 후에 피쳐 스토어에 저장하는 워크프로우가 구현 됩니다.
-- 주요 내용    
-    - ![ML6147-image004.png](img/ML6147-image004.png)    
-- 코드
-    - 실습 시간: TBD
-    - https://github.com/aws-samples/amazon-sagemaker-reusable-components
-
-### 1.6 [워크샵, Aug 2021] SageMaker-Pipelines-Step-By-Step 워크샵
+### 1.4 [워크샵, Aug 2021] SageMaker-Pipelines-Step-By-Step 워크샵
 - https://github.com/gonsoomoon-ml/SageMaker-Pipelines-Step-By-Step
 - 요약
     - SageMake Model Building Pipeline 을 단계 별로 실습할 수 있습니다. 크게 아래 3가지 Phase 가 있습니다.
@@ -95,7 +75,7 @@
     - 위의 링크 임.
 
 
-### 1.7 [워크샵, Oct 2021] Amazon SageMaker를 이용한 시계열 학습과 MLOps 구성
+### 1.5 [워크샵, Oct 2021] Amazon SageMaker를 이용한 시계열 학습과 MLOps 구성
 - https://github.com/Napkin-DL/sm-informer-mlops-quicksight
 - 요약
     - SageMaker에서 Time series 모델을 학습하는 방법과 함께 SageMaker Pipelines을 이용하여 간단한 MLOps를 구성하는 실습 과정입니다. 
@@ -110,7 +90,31 @@
 
 # 2. 고급
 
-### 2.1 [블로그, Jan 2021] Multi-account model deployment with Amazon SageMaker Pipelines
+### 2.1 [블로그, Oct 2021] Build Custom SageMaker Project Templates – Best Practices
+- https://aws.amazon.com/blogs/machine-learning/build-custom-sagemaker-project-templates-best-practices
+- 요약
+    - SageMaker Pipeline Project의 기본 내장 템블릿 의 작동 원리를 설명하고, 커스텀 템플릿으로 확장하는 방법에 대한 베스트 프렉티스를 설명 함.
+- 주요 내용    
+    - ![custome_template.png](img/custome_template.png)    
+- 코드
+    - 실습 시간: TBD
+    - https://github.com/aws-samples/sagemaker-custom-project-templates
+
+### 2.2 [블로그, Oct 2021] Enhance your machine learning development by using a modular architecture with Amazon SageMaker projects
+- https://aws.amazon.com/blogs/machine-learning/enhance-your-machine-learning-development-by-using-a-modular-architecture-with-amazon-sagemaker-projects/
+- 요약
+    - Service Catalgo Product 의 생성을 통하여 SageMaker Pipeline 커스텀 템플릿을 생성하는 방법을 실습 합니다. 
+    - S3 에 파일이 업로드되면, 세이지 메이커 파이프라인이 실행되어서 데이터 전처리 후에 피쳐 스토어에 저장하는 워크프로우가 구현 됩니다.
+- 주요 내용    
+    - ![ML6147-image004.png](img/ML6147-image004.png)    
+- 코드
+    - 실습 시간: 90 분
+    - 한글 : https://github.com/gonsoomoon-ml/amazon-sagemaker-reusable-components-kr
+    - 영어: https://github.com/aws-samples/amazon-sagemaker-reusable-components
+
+
+
+### 2.3 [블로그, Jan 2021] Multi-account model deployment with Amazon SageMaker Pipelines
 - https://aws.amazon.com/blogs/machine-learning/multi-account-model-deployment-with-amazon-sagemaker-pipelines/
 - 요약
     - Data Science, Staging, Production 계정 3개로 멀티 계정을 사용함.
@@ -121,7 +125,7 @@
     - 실습 시간: TBD
     - 블로그의 내용을 따라 함.
     
-### 2.2 [블로그, Aug 2021] Secure multi-account model deployment with Amazon SageMaker: Part 1, Part2
+### 2.4 [블로그, Aug 2021] Secure multi-account model deployment with Amazon SageMaker: Part 1, Part2
 - Part1
     - https://aws.amazon.com/blogs/machine-learning/part-1-secure-multi-account-model-deployment-with-amazon-sagemaker/
 - Part2
