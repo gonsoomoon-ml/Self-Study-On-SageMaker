@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.02.10**
+**마지막 업데이트: 2022.02.17**
 
 
 ---
@@ -88,16 +88,23 @@
     * https://www.youtube.com/playlist?list=PLhr1KZpdzukcOr_6j_zmSrvYnLUtgqsZz
         * Fully-Managed Notebook Instanaces with Amazon SageMaker - a Deep Dive
         * Built-in Machine Learning Algorithms with Amazon SageMaker - a Deep Dive
+
+
 * SageMaker 최초 실습
     *  한글 워크샵 사이트(https://www.sagemaker-workshop-kr.com/kr)에서 다음 두 모듈을 진행합니다.(빌트인 알고리즘 활용)
         * `o` 모듈1 SageMaker > S3 bucket과 노트북 생성하기 - https://www.sagemaker-workshop-kr.com/kr/sagemaker/_module_1.html
         * `o` 모듈2 Linear Learner MNIST - https://www.sagemaker-workshop-kr.com/kr/sagemaker/_module_2.html
     * 기본 Tabular 데이터를 사용: Tabular 데이타를 모델 빌딩, 훈련, 배포, 추론을 해볼 수 있는 예제 입니다.
+    * 아래에서 아래 세 개의 노트북만을 진행 함.
+        * Warmingup1 - 오픈소스 XGBoost getting-started 
+        * Warmingup2 - Warmingup1 예제를 Sagemaker에서 동작하도록 수정하기 
         * 다이렉트 마케팅 (SageMaker 내장 알고리즘 XGBoost 사용)
-            * https://github.com/mullue/xgboost (1번 노트북 진행)
+            * https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/xgboost
+
 
 * 아래는 **공식 AWS 머신 러닝의 교육** 에 사용되는 많은 유용한 링크가 있는 Git 입니다. 꼭 한 번 눌러 봐주세요.
     - [The Machine Learning pipeline on AWS](https://github.com/serithemage/AWS_AI_Study/tree/master/ML_Pipeline)
+
 
 
 ## 3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크
