@@ -20,10 +20,13 @@
 
 
 - 8.세이지 메이커 간련한 지식 및 유용한 커맨드 입니다.
-    - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
     - [ML Ops on SageMaker](MLOps/README.md)
+    - [SageMaker 분산 훈련](DistributedTraining/README.md)        
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)
     - [유용한 트러블 슈팅](workaround/README.md)
+    - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
+
+    
 
 
 
@@ -84,14 +87,17 @@
 * Introduction to Amazon SageMaker (12분)
     * 코세라 공식 세이지 메이커 소개 비디오
     * https://www.coursera.org/lecture/aws-machine-learning/introduction-to-amazon-sagemaker-QugTh
-* SageMaker 데이터 전처리, 모델 빌딩, 훈련 및 배포 (원제: SageMaker Pipelines 을 Step by Step 으로 배우기 )
-    - https://www.youtube.com/watch?v=7IL_0-OjZWk
 
 
 * Amazon SageMaker Deep Dive Series **(아래 두개만 일단 보셔도 됩니다. 각 비디오가 약 10-20분 사이 입니다.)**
     * https://www.youtube.com/playlist?list=PLhr1KZpdzukcOr_6j_zmSrvYnLUtgqsZz
         * Fully-Managed Notebook Instanaces with Amazon SageMaker - a Deep Dive
         * Built-in Machine Learning Algorithms with Amazon SageMaker - a Deep Dive
+
+
+* SageMaker 데이터 전처리, 모델 빌딩, 훈련 및 배포 (원제: SageMaker Pipelines 을 Step by Step 으로 배우기 )
+    - https://www.youtube.com/watch?v=7IL_0-OjZWk
+
 
 
 * SageMaker 최초 실습
