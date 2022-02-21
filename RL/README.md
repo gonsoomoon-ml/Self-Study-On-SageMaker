@@ -14,3 +14,9 @@
 - AWS Summit ANZ 2021 - Using reinforcement learning to solve business problems
     - https://www.youtube.com/watch?v=ifIpqSmcnEE
     - ![Biz-Heatting.png](img/Biz-Heatting.png)
+
+
+# 2. SageMaker RL Example 요약 
+## 2.1 rl_hvac_coach_energyplus
+- 데이터 센터 HVAC (히팅, 통풍, 쿨링) 제어 최적화
+    - 상세 보기: [rl_hvac_coach_energyplus](Example/README-rl_hvac_coach_energyplus.md)
