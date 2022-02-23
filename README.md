@@ -238,6 +238,9 @@
 ## 6. 체계적인 교육
 ---
 
+- [한국어] Manufacturing Boost Program (AI/ML 섹션)
+    - AI/ML Basics, AI/ML Advanced 참조
+    - http://www.awsboost.io/
 * Coursera Sagemaker - https://www.coursera.org/lecture/aws-machine-learning/introduction-to-amazon-sagemaker-QugTh
 * Coursera computer vision - https://www.coursera.org/learn/aws-computer-vision-gluoncv
 * Deep Learning Specialisation (코세라)
