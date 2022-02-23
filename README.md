@@ -19,9 +19,10 @@
 - [7. 아마존 사이언스 및 최신 ML 트랜드](#7.-아마존-사이언스)
 
 
-- 8.세이지 메이커 간련한 지식 및 유용한 커맨드 입니다.
+- 8.세이지 메이커 상세 및 기타 지식 입니다.
     - [ML Ops on SageMaker](MLOps/README.md)
     - [SageMaker 분산 훈련](DistributedTraining/README.md)        
+    - [SageMaker NLP](NLP/README.md)               
     - [SageMaker RL, 강화학습](RL/README.md)           
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)
     - [유용한 트러블 슈팅](workaround/README.md)
