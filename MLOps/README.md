@@ -10,6 +10,15 @@
 ---
 
 # 1. 초급, 중급
+
+### 1.0 [백서, Dec 2020] MLOps: Continuous Delivery for Machine Learning on AWS
+- [알림] 내용이 많아서 나중에 Deep Dive 시 이용하시면 좋습니다.
+- MLOps 의 백서 중의 하나로서 여러개의 회사 (예: ALteryX, Dataiku, Domino) 및 AWS Well Architect 를 소개 합니다.
+- AWS Well Architect 일부
+    - ![datalake_mlops.png](img/datalake_mlops.png)
+
+
+
 ### 1.1 [블로그, Apr 2020] How Slalom and WordStream Used MLOps to Unify Machine Learning and DevOps on AWS
 - 개념적으로, 아키텍쳐 관점에서 모범이 되는 사례이기에 가장 처음 소개 합니다. 코드가 없고 사례를 설명을 하는 블로그 입니다.
 - https://aws.amazon.com/blogs/apn/how-slalom-and-wordstream-used-mlops-to-unify-machine-learning-and-devops-on-aws/
