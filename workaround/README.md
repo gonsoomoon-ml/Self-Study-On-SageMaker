@@ -9,6 +9,10 @@
 ## 1.1 SageMaker Studio Notebook 에서 Shared Memory (shm) 제약 사항 (64MB) 에러
 - [관련 에러 및 워크라운드](sagemaker_studio_nb_shm_error.md)
 
+## 1.2 SageMaker Classic Notebook 에서 Local Mode 사용시 Shared Memory (shm) 제약 사항 (64MB)
+- [관련 에러 및 워크라운드](sagemaker_classic_nb_localmode-shm_error.md)
+
+
 
 # 2. 기타
 
