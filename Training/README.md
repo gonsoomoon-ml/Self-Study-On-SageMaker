@@ -65,3 +65,5 @@
 - [XGBoost HPO](https://github.com/gonsoomoon-ml/SageMaker-Pipelines-Step-By-Step/blob/main/phase01/3.1.HPO-Pipeline.ipynb)
     - 간단하게 HPO 실행결과 확인 하시고, 필요하시면 딥 다이브 하세요.
 
+# 5. SageMaker Clarify
+- [상세 가이드](SMClarify.md)
