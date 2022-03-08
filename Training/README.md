@@ -55,7 +55,13 @@
 - [HPO 개발자 기이드](https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html)
 - [SageMaker Python SDK, HPO](https://sagemaker.readthedocs.io/en/stable/api/training/tuner.html)
 
+## 4.2 블로그
+- Running multiple HPO jobs in parallel on Amazon SageMaker (Feb 2021)
+    - https://aws.amazon.com/ko/blogs/machine-learning/running-multiple-hpo-jobs-in-parallel-on-amazon-sagemaker/
+    - ![Batching-HPO-Pipeline.jpg](img/Batching-HPO-Pipeline.jpg)
 
-## 4.2 샘플 코드    
+## 4.3 샘플 코드    
 - [SageMaker Example, HPO](https://github.com/aws/amazon-sagemaker-examples/tree/main/hyperparameter_tuning)
+- [XGBoost HPO](https://github.com/gonsoomoon-ml/SageMaker-Pipelines-Step-By-Step/blob/main/phase01/3.1.HPO-Pipeline.ipynb)
+    - 간단하게 HPO 실행결과 확인 하시고, 필요하시면 딥 다이브 하세요.
 
