@@ -8,8 +8,12 @@
 # 1. 세이지 메이커의 훈련 개요
 ![SM-Training-Methods.png](img/SM-Training-Methods.png)
 
+
+
 # 2. 세이지 메이커의 스크립트 모드 (Bring Your Own Script, BYOS)
 - TBD
+- 로컬 모드 사용시에 다커의 위치 변경 및 Shared Memory 사이즈 변경
+    - [로컬 모드 셋업 가이드](../workaround/sagemaker_classic_nb_localmode-shm_error.md)
 
 # 3. 세이지 메이커의 사용자 정의 컨테이너 (Bring Your Own Container, BYOC)
 
@@ -33,8 +37,11 @@
 
 
 ## 3.3 훈련 유스 케이스 코드
-* Fsx Luster 를 통한 BYOC 를 통한 학습
-    - TBD
+* Fsx Luster 를 통한 BYOC 를 통한 학습 (Distributed Training of Mask-RCNN in Amazon SageMaker using FSx)
+    - 아래 README 에서 New SageMaker Notebook in VPC 메뉴를 통해 VPC 생성
+        - https://github.com/aws/amazon-sagemaker-examples/tree/main/advanced_functionality/distributed_tensorflow_mask_rcnn
+    - 아래 Distributed Training of Mask-RCNN in Amazon SageMaker using FSx 노트북을 실행
+        - https://github.com/aws/amazon-sagemaker-examples/blob/main/advanced_functionality/distributed_tensorflow_mask_rcnn/mask-rcnn-scriptmode-fsx.ipynb
 
 ## 3.4 관련 블로그 및 자료
 * [강추] Choose the best data source for your Amazon SageMaker training job (Feb 2022)
