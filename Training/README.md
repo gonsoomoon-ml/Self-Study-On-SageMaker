@@ -49,3 +49,13 @@
     - https://aws.amazon.com/blogs/machine-learning/choose-the-best-data-source-for-your-amazon-sagemaker-training-job/
     - ![ML-2979-image003.png](img/ML-2979-image003.png)
 
+
+# 4. 하이퍼파라미터 튜닝 통한 모델 최적화
+## 4.1 개발자 가이드
+- [HPO 개발자 기이드](https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html)
+- [SageMaker Python SDK, HPO](https://sagemaker.readthedocs.io/en/stable/api/training/tuner.html)
+
+
+## 4.2 샘플 코드    
+- [SageMaker Example, HPO](https://github.com/aws/amazon-sagemaker-examples/tree/main/hyperparameter_tuning)
+
