@@ -5,16 +5,22 @@
 
 ---
 
-# 1. 세이지 메이커의 사용자 정의 컨테이너 (Bring Your Own Container, BYOC)
+# 1. 세이지 메이커의 훈련 개요
+![SM-Training-Methods.png](img/SM-Training-Methods.png)
 
-## 1.1 처음 시작하기
+# 2. 세이지 메이커의 스크립트 모드 (Bring Your Own Script, BYOS)
+- TBD
+
+# 3. 세이지 메이커의 사용자 정의 컨테이너 (Bring Your Own Container, BYOC)
+
+## 3.1 처음 시작하기
 - 세이지메이커에서 도커 컨테이너 사용
     - [공식 기발자 가이드](https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/docker-containers.html)
 * 기본 BYOC 작성 코드 예시
     * https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/byoc
 
 
-## 1.2 BYOC 실무 적용하기
+## 3.2 BYOC 실무 적용하기
 
 * BYOC를 만드는 방법이 크게 4가지가 있습니다. (Basic, Script Mode1, 2 , Framework)
     * Basic 으로 컨테이너를 생성하면, 훈련 코드(예: train.py) 가 컨테이너에 같이 포함되어서 생성이 되기에, 매번 수정이 되면 다커를 다시 빌딩하고 ECR에 등록해야 하는 과정을 거칩니다.
@@ -25,7 +31,12 @@
         * Framework Container 만든는 예제 코드
             * https://github.com/aws/amazon-sagemaker-examples/tree/main/advanced_functionality/custom-training-containers/framework-container
 
-## 1.3 관련 블로그 및 자료
+
+## 3.3 훈련 유스 케이스 코드
+* Fsx Luster 를 통한 BYOC 를 통한 학습
+    - TBD
+
+## 3.4 관련 블로그 및 자료
 * [강추] Choose the best data source for your Amazon SageMaker training job (Feb 2022)
     - 훈련을 할시에 여러가지 데이터 소스(s3, Fsx Luster, EFS 등 설명) 특장점 및 선택 방법 가이드
     - https://aws.amazon.com/blogs/machine-learning/choose-the-best-data-source-for-your-amazon-sagemaker-training-job/
