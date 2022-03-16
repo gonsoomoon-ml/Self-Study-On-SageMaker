@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.03.08**
+**마지막 업데이트: 2022.03.16**
 
 
 ---
@@ -22,6 +22,7 @@
 - 8.세이지 메이커 상세 및 기타 지식 입니다. [아래 링크 제공 됨. 클릭 하세요.]
     - [SageMaker 훈련](Training/README.md)
     - [SageMaker 분산 훈련](DistributedTraining/README.md)        
+    - [SageMaker 추론](Inference/README.md)            
     - [ML Ops on SageMaker](MLOps/README.md)    
     - [SageMaker NLP](NLP/README.md)               
     - [SageMaker RL, 강화학습](RL/README.md)           
