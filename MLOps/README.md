@@ -1,6 +1,6 @@
 # ML OPs on SageMaker Step by Step
 
-**마지막 업데이트: 2022.02.17**
+**마지막 업데이트: 2022.03.23**
 
 
 ---
@@ -9,9 +9,16 @@
 - 또한 순서도 쉬운 것 부터 어려운 것으로 구성을 하였기에, 단계별로 접근하시면 좋습니다.
 ---
 
-# 1. 초급, 중급
+# 1. ML Ops 유스 케이스
 
-### 1.0 [백서, Dec 2020] MLOps: Continuous Delivery for Machine Learning on AWS
+## 1.1 SageMaker Model Building Pipeline 으로 개발/프로덕션 분리 유스 케이스
+- ML Ops 의 특정 솔류션 (예: SageMaker) 에 상관 없이 논리적 구성도를 작성하고, 이를 기반으로 어떠한 물리적 구현을 할 수 있습니다. 아래 링크 클릭하여 상세 사항 확인 해보세요.
+    - [ML Ops 논리적, 물리적 아키텍쳐](MLOps_SM_MBP_01.md)
+
+
+# 2. 초급, 중급
+
+## 2.0 [백서, Dec 2020] MLOps: Continuous Delivery for Machine Learning on AWS
 - [알림] 내용이 많아서 나중에 Deep Dive 시 이용하시면 좋습니다.
 - MLOps 의 백서 중의 하나로서 여러개의 회사 (예: ALteryX, Dataiku, Domino) 및 AWS Well Architect 를 소개 합니다.
 - AWS Well Architect 일부
@@ -19,7 +26,7 @@
 
 
 
-### 1.1 [블로그, Apr 2020] How Slalom and WordStream Used MLOps to Unify Machine Learning and DevOps on AWS
+## 2.1 [블로그, Apr 2020] How Slalom and WordStream Used MLOps to Unify Machine Learning and DevOps on AWS
 - 개념적으로, 아키텍쳐 관점에서 모범이 되는 사례이기에 가장 처음 소개 합니다. 코드가 없고 사례를 설명을 하는 블로그 입니다.
 - https://aws.amazon.com/blogs/apn/how-slalom-and-wordstream-used-mlops-to-unify-machine-learning-and-devops-on-aws/
    
@@ -39,7 +46,7 @@
 - 코드
     - 공개 되지 않음.
 
-### 1.2 [워크샵, Apr 2021] Amazon SageMaker Pipelines Getting Started
+## 2.2 [워크샵, Apr 2021] Amazon SageMaker Pipelines Getting Started
 - https://github.com/comeddy/amazon-sagemaker-mlops
 - 요약
     - SageMaker Pipeline Project 의 내장 템플릿을 사용하여 SageMaker Studio GUI 환경에서 코드 없이 클릭, 클릭으로 실습 해보는 내용 입니다. 처음 시작하는 입문용 입니다.  
@@ -51,7 +58,7 @@
     - 실습 시간: 약 40 분
     - 위의 제목 링크
 
-### 1.3 [블로그, Jan 2021] Building, automating, managing, and scaling ML workflows using Amazon SageMaker Pipelines
+## 2.3 [블로그, Jan 2021] Building, automating, managing, and scaling ML workflows using Amazon SageMaker Pipelines
 - https://aws.amazon.com/blogs/machine-learning/building-automating-managing-and-scaling-ml-workflows-using-amazon-sagemaker-pipelines
 - 요약
     - SageMaker Pipeline Project의 기본 내장 템블릿 "MLOps template for model building, training, and deployment" 을 기반으로 사용자의 코드를 넣어서 만들어 보는 예시 입니다. 
@@ -66,7 +73,7 @@
 
 
 
-### 1.4 [워크샵, Aug 2021] SageMaker-Pipelines-Step-By-Step 워크샵
+## 2.4 [워크샵, Aug 2021] SageMaker-Pipelines-Step-By-Step 워크샵
 - https://github.com/gonsoomoon-ml/SageMaker-Pipelines-Step-By-Step
 - 요약
     - SageMake Model Building Pipeline 을 단계 별로 실습할 수 있습니다. 크게 아래 3가지 Phase 가 있습니다.
@@ -84,7 +91,7 @@
     - 위의 링크 임.
 
 
-### 1.5 [워크샵, Oct 2021] Amazon SageMaker를 이용한 시계열 학습과 MLOps 구성
+## 2.5 [워크샵, Oct 2021] Amazon SageMaker를 이용한 시계열 학습과 MLOps 구성
 - https://github.com/Napkin-DL/sm-informer-mlops-quicksight
 - 요약
     - SageMaker에서 Time series 모델을 학습하는 방법과 함께 SageMaker Pipelines을 이용하여 간단한 MLOps를 구성하는 실습 과정입니다. 
@@ -97,9 +104,9 @@
 
 
 
-# 2. 고급
+# 3. 고급
 
-### 2.1 [블로그, Oct 2021] Build Custom SageMaker Project Templates – Best Practices
+## 3.1 [블로그, Oct 2021] Build Custom SageMaker Project Templates – Best Practices
 - https://aws.amazon.com/blogs/machine-learning/build-custom-sagemaker-project-templates-best-practices
 - 요약
     - SageMaker Pipeline Project의 기본 내장 템블릿 의 작동 원리를 설명하고, 커스텀 템플릿으로 확장하는 방법에 대한 베스트 프렉티스를 설명 함.
@@ -109,7 +116,7 @@
     - 실습 시간: TBD
     - https://github.com/aws-samples/sagemaker-custom-project-templates
 
-### 2.2 [블로그, Oct 2021] Enhance your machine learning development by using a modular architecture with Amazon SageMaker projects
+## 3.2 [블로그, Oct 2021] Enhance your machine learning development by using a modular architecture with Amazon SageMaker projects
 - https://aws.amazon.com/blogs/machine-learning/enhance-your-machine-learning-development-by-using-a-modular-architecture-with-amazon-sagemaker-projects/
 - 요약
     - Service Catalgo Product 의 생성을 통하여 SageMaker Pipeline 커스텀 템플릿을 생성하는 방법을 실습 합니다. 
@@ -123,7 +130,7 @@
 
 
 
-### 2.3 [블로그, Jan 2021] Multi-account model deployment with Amazon SageMaker Pipelines
+## 3.3 [블로그, Jan 2021] Multi-account model deployment with Amazon SageMaker Pipelines
 - https://aws.amazon.com/blogs/machine-learning/multi-account-model-deployment-with-amazon-sagemaker-pipelines/
 - 요약
     - Data Science, Staging, Production 계정 3개로 멀티 계정을 사용함.
@@ -134,7 +141,7 @@
     - 실습 시간: TBD
     - 블로그의 내용을 따라 함.
     
-### 2.4 [블로그, Aug 2021] Secure multi-account model deployment with Amazon SageMaker: Part 1, Part2
+## 3.4 [블로그, Aug 2021] Secure multi-account model deployment with Amazon SageMaker: Part 1, Part2
 - Part1
     - https://aws.amazon.com/blogs/machine-learning/part-1-secure-multi-account-model-deployment-with-amazon-sagemaker/
 - Part2
