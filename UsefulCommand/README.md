@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2022.02.07**
+**마지막 업데이트: 2022.03.26**
 **작성자: 문곤수**
 
 ---
@@ -107,3 +107,27 @@ response = client.put_bucket_ownership_controls(
     }
 )
 ```
+
+### \# 쥬피터 노트북에서 라이브러리 자동 로딩
+
+#### (1) 파이썬 매직 커맨드 사용
+```
+%load_ext autoreload
+%autoreload 2
+```
+
+#### (2) 특정 라이브러리 재로딩
+```
+# src/p_utils.py 파일 저장된 것 재로딩
+
+import src.p_utils 
+from importlib import reload
+src.p_utils = reload(src.p_utils)
+
+from src.p_utils import download_extact_infer_file # download_extact_infer_file 함수 사용
+
+response = download_extact_infer_file()
+
+
+```
+
