@@ -1,6 +1,6 @@
 # Training : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.03.08**
+**마지막 업데이트: 2022.03.29**
 
 
 ---
@@ -20,6 +20,8 @@
 ## 3.1 처음 시작하기
 - 세이지메이커에서 도커 컨테이너 사용
     - [공식 기발자 가이드](https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/docker-containers.html)
+- BYOC 기본 설명
+    - [요약정리](https://github.com/gonsoomoon-ml/churn-prediction-workshop2/tree/master/BYOC)
 * 기본 BYOC 작성 코드 예시
     * https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/byoc
 
