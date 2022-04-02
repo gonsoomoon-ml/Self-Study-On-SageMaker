@@ -117,11 +117,13 @@ import lookout_equipment_utils as lookout
 
 - 추가적인 용량 삭제가 필요하면 아래를 실행 하세요
     - `rm -rf /tmp/tmp*`
+
+#### 다커 인터렉트 모드 (다커 안으로 진입)
+- docker exec -it \<Container ID\> /bin/bash 
     
-    
-- 참조: 
-    - 도커로 사용으로 인한 시스템 용량 확보
-        - [Docker의 prune 사용법](https://www.lainyzine.com/ko/article/docker-prune-usage-remove-unused-docker-objects/)
+참조: 
+- 도커로 사용으로 인한 시스템 용량 확보
+    - [Docker의 prune 사용법](https://www.lainyzine.com/ko/article/docker-prune-usage-remove-unused-docker-objects/)
     
 ### \# ECR 이미지 검색
 ```
