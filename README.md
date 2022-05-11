@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.03.16**
+**마지막 업데이트: 2022.05.11**
 
 
 ---
@@ -125,6 +125,14 @@
 ---
 #### AWS AI/ML 리소스 허브
 - [AI/ML 리소스 허브](https://kr-resources.awscloud.com/aws-ai-and-machinelearning?sc_channel=el&sc_campaign=apac_field_t1_kr-aws-innovate-aiml_20220224_7014z000000rmip&sc_publisher=other&sc_country=kr&sc_geo=apj&sc_category=multi&sc_outcome=field&trkcampaign=innovate-ml&trk=el_spkrqr_kr_innovateaiml_22q1)
+
+#### 2022 AI/ML Innovate
+- [전체 채널](https://www.youtube.com/playlist?list=PLORxAVAC5fUVqyzPFUXdNnD8k1KYRDbwI)
+- SageMaker 기술 세션
+    - [ML 데이터 준비 및 ML Workflow 프로토타이핑 배워보기 - 문곤수, AWS](https://youtu.be/ndHnRTiQcPY)
+    - [Amazon SageMaker를 이용한 시계열 예측 모델 개발 및 MLOps 구성 방법 알아보기 - 강민재, AWS](https://youtu.be/_ia9AA3xYcc)
+    - [신속한 가치 전달을 위한 전사 ML 플랫폼 구축하기 - 이유동, AWS](https://youtu.be/5h-ebraYu5s)
+    - [모두를 위한 클라우드 네이티브 한국어 자연어 처리 모델 훈련 및 활용법 - 김대근, AWS](https://youtu.be/0Fl2gczVFwc)
 
 #### 2021 AI/ML Innovate
 - Amazon SageMaker SDK 2.x 사용법 (5가지 핵심 오브젝트) – 강성문:: AWS Innovate 2021
