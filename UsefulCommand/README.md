@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2022.04.02**
+**마지막 업데이트: 2022.05.16**
 
 
 ---
@@ -56,7 +56,7 @@ telnet
 
 
 
-# 3. 모델 빙딩
+# 3. 모델 빌딩
 ---
 ### \# 쥬피터 노트북에서 라이브러리 자동 로딩
 
@@ -82,8 +82,7 @@ response = download_extact_infer_file()
 ```
 
 
-
-### \# 파이썬에서 상위 폴더의 파일을 로딩 하는 방법
+#### (3) 파이썬에서 상위 폴더의 파일을 로딩 하는 방법
 
 - 아래와 같이 폴더 구조가 있다가 가정하고, 1_data_preparation.ipynb 노트북에서 아래와 같은 import를 사용하여 lookout_equipment_utils.py 안에 있는 함수를 로딩 함.
 
@@ -98,6 +97,19 @@ response = download_extact_infer_file()
 
 sys.path.append('../utils')
 import lookout_equipment_utils as lookout 
+```
+
+#### (4) try, catch 를 통한 에러 로그 프린트
+```python
+import traceback
+
+try:
+    print("")
+    # do someting()
+except Exception:
+    print(traceback.format_exc())
+
+
 ```
 
 
