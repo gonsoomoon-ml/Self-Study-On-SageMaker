@@ -7,7 +7,7 @@
     - 12+ 세션 (SageMaker, Personalize) --> [전체 세션 목록](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
 
 
-- - <font color="green">[Hot Update]</font> JupyerLab3 출시 : 코딩 생산성 좋아졌습니다. ^^  --> [Amazon SageMaker Studio and SageMaker Notebook Instance now come with JupyterLab 3 notebooks to boost developer productivity](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
+- <font color="green">[Hot Update]</font> JupyerLab3 출시 : 코딩 생산성 좋아졌습니다. ^^  --> [Amazon SageMaker Studio and SageMaker Notebook Instance now come with JupyterLab 3 notebooks to boost developer productivity](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
 
 
 
