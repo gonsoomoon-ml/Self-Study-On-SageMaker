@@ -115,7 +115,7 @@
 
 
 
-* [Level 100-200] SageMaker 최초 실습
+* <Level 100-200> SageMaker 최초 실습
     *  한글 워크샵 사이트(https://www.sagemaker-workshop-kr.com/kr)에서 다음 두 모듈을 진행합니다.(빌트인 알고리즘 활용)
         * `o` 모듈1 SageMaker > S3 bucket과 노트북 생성하기 - https://www.sagemaker-workshop-kr.com/kr/sagemaker/_module_1.html
         * `o` 모듈2 Linear Learner MNIST - https://www.sagemaker-workshop-kr.com/kr/sagemaker/_module_2.html
@@ -138,14 +138,14 @@
 - [AI/ML 리소스 허브](https://kr-resources.awscloud.com/aws-ai-and-machinelearning?sc_channel=el&sc_campaign=apac_field_t1_kr-aws-innovate-aiml_20220224_7014z000000rmip&sc_publisher=other&sc_country=kr&sc_geo=apj&sc_category=multi&sc_outcome=field&trkcampaign=innovate-ml&trk=el_spkrqr_kr_innovateaiml_22q1)
 
 
-### 3.2. [Level 100-300] 2022 AWS AIML 스페셜 웹비나
+### 3.2. <Level 100-300> 2022 AWS AIML 스페셜 웹비나
 - 12+ 세션 (SageMaker, Personalize) --> [전체 세션 목록](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
     - 세이지 메이커 시리즈 첫 번째
         - [Amazon SageMaker 모델 학습 방법 소개 - 최영준, AI/ML 엑스퍼트 솔루션즈 아키텍트, AWS :: AWS AIML 스페셜 웨비나](https://www.youtube.com/watch?v=oQ7glJfD-BQ&list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr&index=1)
     - 퍼스널라이즈 시리즈 첫 번째
         - [Amazon Personalize 소개 (+ 실습 구성) - 김영진, 솔루션즈 아키텍트, AWS :: AWS AIML 스페셜 웨비나](https://www.youtube.com/watch?v=Och2ml4mB0s&list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr&index=8)
 
-### 3.3. [Level 200-300] 2022 AI/ML Innovate
+### 3.3. <Level 200-300> 2022 AI/ML Innovate
 - [전체 채널](https://www.youtube.com/playlist?list=PLORxAVAC5fUVqyzPFUXdNnD8k1KYRDbwI)
 - SageMaker 기술 세션
     - [ML 데이터 준비 및 ML Workflow 프로토타이핑 배워보기 - 문곤수, AWS](https://youtu.be/ndHnRTiQcPY)
@@ -153,7 +153,7 @@
     - [신속한 가치 전달을 위한 전사 ML 플랫폼 구축하기 - 이유동, AWS](https://youtu.be/5h-ebraYu5s)
     - [모두를 위한 클라우드 네이티브 한국어 자연어 처리 모델 훈련 및 활용법 - 김대근, AWS](https://youtu.be/0Fl2gczVFwc)
 
-### 3.4. [Level 200-300] 2021 AI/ML Innovate
+### 3.4. <Level 200-300> 2021 AI/ML Innovate
 - Amazon SageMaker SDK 2.x 사용법 (5가지 핵심 오브젝트) – 강성문:: AWS Innovate 2021
     - https://www.youtube.com/watch?v=n2Ky1nZXyWo
 - Amazon SageMaker 기반 사전 훈련된 딥러닝 모델 손쉽게 배포하기 – 김대근:: AWS Innovate 2021
@@ -165,7 +165,7 @@
 
 
 
-### 3.5. [Level 100-200] 2020 Re-Invent AI/ML 서비스 소개
+### 3.5. <Level 100-200> 2020 Re-Invent AI/ML 서비스 소개
 - Deep Dive - 신규 AI 서비스 | AWS Hero Talk - 딥레이서 살펴보기 :: AWS re:Invent Daily Recap (12월 3일)
     * https://www.youtube.com/watch?v=CtRMgSDbwA4&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=7
 
@@ -218,13 +218,13 @@
             * SageMaker로 싱글 타임시리즈 시계열 예측 워크샵: https://github.com/gonsoomoon-ml/linear-regresson-forecast
             * Inference Pipeline을 이용한 고객 이탈 예측 모델 및 평가 (Churn Prediction Model): https://github.com/gonsoomoon-ml/churn-prediction-workshop
         * 자연어 (NLP)
-            - [Level 200-300] [NLP 텍스트 분류를 위한 Hugging Face on SageMaker 워크샵](https://github.com/gonsoomoon-ml/NLP-HuggingFace-On-SageMaker)
+            -  <Level 200-300> [NLP 텍스트 분류를 위한 Hugging Face on SageMaker 워크샵](https://github.com/gonsoomoon-ml/NLP-HuggingFace-On-SageMaker)
             - [Level 200-300] [Amazon SageMaker 기반 한국어 자연어 처리 샘플](https://github.com/daekeun-ml/sm-kornlp-usecases)
             * [Level 200-300] 토픽 모델링을 사용한 온라인 상품 부정 리뷰 분석: https://github.com/gonsoomoon-ml/topic-modeling
-            * 빌트인 알고리즘을 이용한 한글처리 - https://github.com/daekeun-ml/blazingtext-workshop-korean
+            * <Level 100-200> 빌트인 알고리즘을 이용한 한글처리 - https://github.com/daekeun-ml/blazingtext-workshop-korean
             * BERT 이용한 한글처리 - https://github.com/daekeun-ml/kobert-workshop
         * 영상 (Vision)
-            * 자동차 번호판 인식 문제 해결에 SageMaker 적용해보기 - https://github.com/mullue/lab-custom-model-anpr
+            * <Level 200-300> 자동차 번호판 인식 문제 해결에 SageMaker 적용해보기 - https://github.com/mullue/lab-custom-model-anpr
         * 기타
             * Tensorflow 활용실습 (Tensorflow 2.0 script mode와 stepfunctions사용하기) 
                 *  https://github.com/mullue/sm-tf2
