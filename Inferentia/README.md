@@ -46,8 +46,10 @@
         * 링크 연결 안됨.
 
 
+# 4. 나의 모델이 Neuron SDK 에서 지원 하는지 (컴피일 가능) 확인 하기
+- 상세 보기 : [Check-Model](README-CheckModel.md)
 
-# 4. Example Code
+# 5. Example Code
 
 - Amazon SageMaker Neo Compilation Jobs
     * SageMaker 에서 Neuron Compile
