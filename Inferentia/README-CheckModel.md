@@ -131,5 +131,8 @@ python tf_neuron_check_model.py ./ws_resnet50/resnet50
 
 
 
-    
+### 2.2. Neuron Supported operators (tensorlow 포함)
+- [Neuron Supported operators](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/release-notes/neuron-cc-ops/index.html?highlight=Tensorflow%20Supported%20operators)
+- Tensorflow 예시
+- ![tf-support-operators.png](img/tf-support-operators.png)
     
