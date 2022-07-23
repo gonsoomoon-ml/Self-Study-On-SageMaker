@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.06.20**
+**마지막 업데이트: 2022.07.23**
 
 
 - <font color="green">[Hot Update]</font> 2022 AWS AIML 스페셜 웹비나
@@ -39,6 +39,7 @@
     - [SageMaker 훈련](Training/README.md)
     - [SageMaker 분산 훈련](DistributedTraining/README.md)        
     - [SageMaker 추론](Inference/README.md)            
+    - [Inferentia 추론](Inferentia/README.md)                
     - [ML Ops on SageMaker](MLOps/README.md)    
     - [SageMaker NLP](NLP/README.md)               
     - [SageMaker RL, 강화학습](RL/README.md)           
