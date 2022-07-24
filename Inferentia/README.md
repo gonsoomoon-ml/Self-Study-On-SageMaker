@@ -8,7 +8,7 @@
 # 1. Inferentia 공식 개발자 문서
 
 * AWS Neuron SDK
-    * 공색 Neuron SDK 개발 문서
+    * 공식 Neuron SDK 개발 문서
     * https://awsdocs-neuron.readthedocs-hosted.com/en/latest/index.html
 * The AWS Inferentia Chip With DLAMI
     * EC2 DLAMI 를 이용하여 실습을 위한 문서 
