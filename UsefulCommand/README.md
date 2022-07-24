@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2022.05.16**
+**마지막 업데이트: 2022.07.24**
 
 
 ---
@@ -43,6 +43,9 @@ pip install -r requirements.txt # requirements.txt 안에 있는 파이썬 패�
 
 ```
 - 관련 링크: [Python 패키지를 Amazon SageMaker 노트북 인스턴스의 Conda 환경에 설치하려면 어떻게 해야 하나요?](https://aws.amazon.com/ko/premiumsupport/knowledge-center/sagemaker-python-package-conda/)
+
+- Torch 설치 예시
+![example_install_torch.png](img/example_install_torch.png)
 
 ### \# SageMaker Studio 의 이미지 터미널에서 net-tools 설치
 
