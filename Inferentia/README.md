@@ -87,3 +87,7 @@
     - * https://aws.amazon.com/blogs/machine-learning/deploying-tensorflow-openpose-on-aws-inferentia-based-inf1-instances-for-significant-price-performance-improvements/
 
 
+# 6. 기타 인퍼런스 자료
+- Deploy fast and scalable AI with NVIDIA Triton Inference Server in Amazon SageMaker
+    - https://aws.amazon.com/blogs/machine-learning/deploy-fast-and-scalable-ai-with-nvidia-triton-inference-server-in-amazon-sagemaker/
+
