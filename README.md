@@ -1,12 +1,11 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.07.23**
+**마지막 업데이트: 2022.07.26**
 
 
 - <font color="green">[Hot Update]</font> 2022 AWS AIML 스페셜 웹비나
     - 12+ 세션 (SageMaker, Personalize) --> [전체 세션 목록](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
-
-
+- <font color="green">[Hot Update]</font> AWS 머신 러닝 블로그를 전문가가 설명해주기:   --> [10분만에 따라잡는 AWS 머신러닝](https://www.youtube.com/playlist?list=PLORxAVAC5fUW3U4KlNCg7BNctpJMMjUV8)
 - <font color="green">[Hot Update]</font> JupyerLab3 출시 : 코딩 생산성 좋아졌습니다. ^^  --> [Amazon SageMaker Studio and SageMaker Notebook Instance now come with JupyterLab 3 notebooks to boost developer productivity](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
 
 
