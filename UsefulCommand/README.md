@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2022.07.24**
+**마지막 업데이트: 2022.08.05**
 
 
 ---
@@ -141,6 +141,10 @@ except Exception:
     - [Docker의 prune 사용법](https://www.lainyzine.com/ko/article/docker-prune-usage-remove-unused-docker-objects/)
     
 ### \# ECR 이미지 검색
+- AWS Deep Learing Containers
+    - SageMaker, EC2, EKS, ECS 에서 사용 가능한 Deep Learing Containers 리스트 함.
+    - https://github.com/aws/deep-learning-containers/blob/master/available_images.md
+    
 ```
  aws ecr list-images --repository-name pytorch-inference --registry-id 763104351884 --max-items 2
  
