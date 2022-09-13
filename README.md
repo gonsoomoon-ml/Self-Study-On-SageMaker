@@ -1,12 +1,13 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.07.26**
+**마지막 업데이트: 2022.09.13**
 
 
+- <font color="green">[Hot Update]</font> 2022 AWS Seoul Summit
+    - 80+ 세션 (SageMaker 세션은 아래 "3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크" 참고 하세요.) --> [전체 세션 목록](https://m.youtube.com/playlist?list=PLORxAVAC5fUX7j65Uvp9xAi1hMS6M-2P1)
 - <font color="green">[Hot Update]</font> 2022 AWS AIML 스페셜 웹비나
     - 12+ 세션 (SageMaker, Personalize) --> [전체 세션 목록](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
 - <font color="green">[Hot Update]</font> AWS 머신 러닝 블로그를 전문가가 설명해주기:   --> [10분만에 따라잡는 AWS 머신러닝](https://www.youtube.com/playlist?list=PLORxAVAC5fUW3U4KlNCg7BNctpJMMjUV8)
-- <font color="green">[Hot Update]</font> JupyerLab3 출시 : 코딩 생산성 좋아졌습니다. ^^  --> [Amazon SageMaker Studio and SageMaker Notebook Instance now come with JupyterLab 3 notebooks to boost developer productivity](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
 
 
 
@@ -35,6 +36,7 @@
 
 
 - 8.세이지 메이커 상세 및 기타 지식 입니다. [아래 링크 제공 됨. 클릭 하세요.]
+    - [SageMaker 개발 환경](Environment/README.md)
     - [SageMaker 훈련](Training/README.md)
     - [SageMaker 분산 훈련](DistributedTraining/README.md)        
     - [SageMaker 추론](Inference/README.md)            
@@ -143,14 +145,19 @@
 - [AI/ML 리소스 허브](https://kr-resources.awscloud.com/aws-ai-and-machinelearning?sc_channel=el&sc_campaign=apac_field_t1_kr-aws-innovate-aiml_20220224_7014z000000rmip&sc_publisher=other&sc_country=kr&sc_geo=apj&sc_category=multi&sc_outcome=field&trkcampaign=innovate-ml&trk=el_spkrqr_kr_innovateaiml_22q1)
 
 
-### 3.2. <Level 100-300> 2022 AWS AIML 스페셜 웹비나
+### 3.2. <Level 200-300> 2022 Seoul Summit AI/ML Session
+- [실전! 대용량 데이터를 이용한 초거대 모델 학습 환경 만들기 - 최영준 솔루션즈 아키텍트, AWS :: AWS Summit Korea 2022](https://www.youtube.com/watch?v=l1FSiRbEja4&list=PLORxAVAC5fUX7j65Uvp9xAi1hMS6M-2P1&index=35)
+- [이제, 모델 서빙 패턴의 전문가가 되어보세요! - 김대근 AIML 스페셜리스트 솔루션즈 아키텍트, AWS :: AWS Summit Korea 2022](https://www.youtube.com/watch?v=cHNe_AQWWi0&list=PLORxAVAC5fUX7j65Uvp9xAi1hMS6M-2P1&index=59)
+- [스마일게이트 게임 플랫폼 ‘스토브’의 결제 사기 탐지 서비스 구축 사례 - 문곤수, 장준성, AWS / 전성현, 스마일게이트 :: AWS Summit Korea 2022](https://www.youtube.com/watch?v=MdjlJxXOzPw&list=PLORxAVAC5fUX7j65Uvp9xAi1hMS6M-2P1&index=36)
+
+### 3.3. <Level 100-300> 2022 AWS AIML 스페셜 웹비나
 - 12+ 세션 (SageMaker, Personalize) --> [전체 세션 목록](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
     - 세이지 메이커 시리즈 첫 번째
         - [Amazon SageMaker 모델 학습 방법 소개 - 최영준, AI/ML 엑스퍼트 솔루션즈 아키텍트, AWS :: AWS AIML 스페셜 웨비나](https://www.youtube.com/watch?v=oQ7glJfD-BQ&list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr&index=1)
     - 퍼스널라이즈 시리즈 첫 번째
         - [Amazon Personalize 소개 (+ 실습 구성) - 김영진, 솔루션즈 아키텍트, AWS :: AWS AIML 스페셜 웨비나](https://www.youtube.com/watch?v=Och2ml4mB0s&list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr&index=8)
 
-### 3.3. <Level 200-300> 2022 AI/ML Innovate
+### 3.4. <Level 200-300> 2022 AI/ML Innovate
 - [전체 채널](https://www.youtube.com/playlist?list=PLORxAVAC5fUVqyzPFUXdNnD8k1KYRDbwI)
 - SageMaker 기술 세션
     - [ML 데이터 준비 및 ML Workflow 프로토타이핑 배워보기 - 문곤수, AWS](https://youtu.be/ndHnRTiQcPY)
@@ -158,7 +165,7 @@
     - [신속한 가치 전달을 위한 전사 ML 플랫폼 구축하기 - 이유동, AWS](https://youtu.be/5h-ebraYu5s)
     - [모두를 위한 클라우드 네이티브 한국어 자연어 처리 모델 훈련 및 활용법 - 김대근, AWS](https://youtu.be/0Fl2gczVFwc)
 
-### 3.4. <Level 200-300> 2021 AI/ML Innovate
+### 3.5. <Level 200-300> 2021 AI/ML Innovate
 - Amazon SageMaker SDK 2.x 사용법 (5가지 핵심 오브젝트) – 강성문:: AWS Innovate 2021
     - https://www.youtube.com/watch?v=n2Ky1nZXyWo
 - Amazon SageMaker 기반 사전 훈련된 딥러닝 모델 손쉽게 배포하기 – 김대근:: AWS Innovate 2021
@@ -168,9 +175,7 @@
 - Amazon SageMaker와 CDK를 활용한 딥러닝 모델 서비스 현대화 기법 – 최권열:: AWS Innovate 2021
     - https://www.youtube.com/watch?v=kn2DBjZW5W8
 
-
-
-### 3.5. <Level 100-200> 2020 Re-Invent AI/ML 서비스 소개
+### 3.6. <Level 100-200> 2020 Re-Invent AI/ML 서비스 소개
 - Deep Dive - 신규 AI 서비스 | AWS Hero Talk - 딥레이서 살펴보기 :: AWS re:Invent Daily Recap (12월 3일)
     * https://www.youtube.com/watch?v=CtRMgSDbwA4&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=7
 
@@ -179,7 +184,7 @@
     * https://www.youtube.com/watch?v=8fhQHpg9r9Y&list=RDCMUCM9urpxJaoPf-j1cV9pGszg&index=20
 
 
-### 3.6. AWS ML 전문가 코드 리파지토리
+### 3.7. AWS ML 전문가 코드 리파지토리
 - [AWS Korea 공식 코드 리파지토리](https://github.com/aws-samples/aws-ai-ml-workshop-kr)
 - [Daekeun Kim](https://github.com/daekeun-ml)
 - [Leon Kang](https://github.com/mullue)
