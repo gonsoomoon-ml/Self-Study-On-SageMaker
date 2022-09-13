@@ -1,11 +1,19 @@
-# Vision 주요 참고 문서
+# Vision : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.04.03**
+**마지막 업데이트: 2022.09.13**
 
 
 ---
 
-#  작업 중 입니다.
+# 1. Workshop
+
+SageMaker End to End Computer Vision Workshop (Sep 2022)
+
+* https://catalog.us-east-1.prod.workshops.aws/workshops/4dde7f9d-39e8-47b3-89ed-e1c678be6783/en-US
+
+
+
+# 2. 유용한 코드
 
 
 ```python

@@ -42,6 +42,7 @@
     - [SageMaker 추론](Inference/README.md)            
     - [Inferentia 추론](Inferentia/README.md)                
     - [ML Ops on SageMaker](MLOps/README.md)    
+    - [SageMaker Vision](Vision/README.md)                   
     - [SageMaker NLP](NLP/README.md)               
     - [SageMaker RL, 강화학습](RL/README.md)           
     - [유용한 트러블 슈팅](workaround/README.md)
