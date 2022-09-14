@@ -144,7 +144,8 @@ except Exception:
 - AWS Deep Learing Containers
     - SageMaker, EC2, EKS, ECS 에서 사용 가능한 Deep Learing Containers 리스트 함.
     - https://github.com/aws/deep-learning-containers/blob/master/available_images.md
-    
+- 아래 명령어는 실행되는 user 혹은  role 에 "AmazonEC2ContainerRegistryFullAccess " 정책이 있어야 합니다.
+
 ```
  aws ecr list-images --repository-name pytorch-inference --registry-id 763104351884 --max-items 2
  
@@ -177,6 +178,51 @@ aws ecr describe-images --repository-name pytorch-inference --registry-id 763104
 
 # 5. 모델 배포 및 추론
 ---
+## \# SageMaker PyTorchModel passing custom variables
+SageMaker Model (예: PyTorchModel) 생성시에 "사용자 정의 변수 (custom variables)" 를 제공하여, 모델 서빙시에 사용할 수 있을까?
+
+- 관련 사용 시나리오
+    - 모델 A, 모델 B 가 존재하고, 각각의 모델은 Pytorch TorchServe 로 모델 서빙을 각각 하고, 다음의 추론 도커 이미지를 사용 합니다.(  763104351884.dkr.ecr.us-east-1.amazonaws.com/pytorch-inference   1.8.1-gpu-py3 ). 
+    - 모델 A, 모델 B 를 model_fn() 통하여 모델 로딩시에 model_A.json (모델 로딩시 설정 변수 포함), model_B.json 이 필요 합니다.
+    - 임의의 코드는 아래와 같습니다.
+    
+```Python    
+    def model_fn(model_dir):
+        Category = "A"
+        model_config_path = f"model_{Category}.json"
+        model_config_dict = load_json(model_config_path)        
+        
+        model_user_num = int(model_config_dict["user_num"])
+        model_item_num = int(model_config_dict["item_num"])
+        model_factor_num = int(model_config_dict["factor_num"])
+
+        # 모델 네트워크 로딩
+        inf_model = model.Net(model_user_num, model_item_num, model_factor_num)
+        
+        # 모델 가중치 로딩    
+        with open(model_file_path, "rb") as f:
+              inf_model.load_state_dict(torch.load(f))            
+        
+        return inf_model
+```
+- 위를 해결할 수 있는 방법은 아래와 같이 PyTorchModel() 를 생성시에 환경 변수를 제공합니다.
+                     
+```Python
+local_pytorch_model = PyTorchModel(model_data=local_model_path,
+                                   role=role,
+                                   entry_point='inference.py',
+                                   source_dir = 'src',
+                                   framework_version='1.8.1',
+                                   py_version='py3',
+                                   model_server_workers=1,
+                                   env={'Category' : 'A'}
+                                  )
+```
+- 이후에 model_fn() 에서  `Category = "A"` 대신에 `Category = os.environ["Category"]` 를 통하여 제공된 변수의 값을 얻습니다.
+    
+- 참고 : PyTorchModel 의 상위 클래스 개발자 가이드
+    - [SageMaker Python SDK, Model](https://sagemaker.readthedocs.io/en/stable/api/inference/model.html#sagemaker.model.Model)
+
 
 # 6. 패키징 및 ML Ops
 ---
