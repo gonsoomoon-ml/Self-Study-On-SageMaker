@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.09.13**
+**마지막 업데이트: 2022.09.30**
 
 
 - <font color="green">[Hot Update]</font> 2022 AWS Seoul Summit
@@ -47,6 +47,7 @@
     - [SageMaker RL, 강화학습](RL/README.md)           
     - [유용한 트러블 슈팅](workaround/README.md)
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)    
+    - [New] [세이지 메이커 비용 최적화](Cost_Optimization/README.md)
     - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
 
     
