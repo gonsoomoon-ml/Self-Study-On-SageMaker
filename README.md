@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.09.30**
+**마지막 업데이트: 2022.10.18**
 
 
 - <font color="green">[Hot Update]</font> 2022 AWS Seoul Summit
