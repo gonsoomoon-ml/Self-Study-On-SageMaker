@@ -1,6 +1,6 @@
 # ML OPs on SageMaker Step by Step
 
-**마지막 업데이트: 2022.03.24**
+**마지막 업데이트: 2022.10.18**
 
 
 ---
@@ -11,7 +11,17 @@
 
 # 1. ML Ops 유스 케이스
 
-## 1.1 SageMaker Model Building Pipeline 으로 개발/프로덕션 분리 유스 케이스
+
+## 1.1 MLOps foundation roadmap for enterprises with Amazon SageMaker [블로그, Jun 2022]
+기업에서 MLOps 를 고려할때는 현재 기업의 MLOps 성숙도(MLOps Maturity)를 먼저 평가를 해야하고 이에 맞게 접근 전략 및 실행을 단계적으로 해야 합니다. 이 블로그는 성숙도 단계에 따른 접근 전략 및 예시 아키텍쳐를 제공하여 큰 그림을 세울 수 있게 합니다.
+- 링크: https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker/
+- MLOps 성숙도(MLOps Maturity)
+![mlops_maturnity.jpg](img/mlops_maturnity.jpg)
+- MLOps 와 Data Lake 통합 아키텍쳐
+![mlops_datalake.png](img/mlops_datalake.png)
+
+
+## 1.2 SageMaker Model Building Pipeline 으로 개발/프로덕션 분리 유스 케이스
 - ML Ops 의 특정 솔류션 (예: SageMaker) 에 상관 없이 논리적 구성도를 작성하고, 이를 기반으로 어떠한 물리적 구현을 할 수 있습니다. 아래 링크 클릭하여 상세 사항 확인 해보세요.
     - [ML Ops 논리적, 물리적 아키텍쳐](MLOps_SM_MBP_01.md)
 
