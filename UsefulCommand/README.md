@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2022.09.18**
+**마지막 업데이트: 2022.11.12**
 
 
 ---
@@ -122,6 +122,35 @@ except Exception:
     print(traceback.format_exc())
 
 
+```
+#### (5) 디버깅: 폴더 하위 구조 확인하기 
+```python
+import os
+
+def print_files_in_dir(root_dir, prefix):
+    files = os.listdir(root_dir)
+    for file in files:
+        path = os.path.join(root_dir, file)
+        print(prefix + path)
+        if os.path.isdir(path):
+            print_files_in_dir(path, prefix + "    ")
+            
+print_files_in_dir(root_dir = "codecommit", prefix="")            
+
+예시 결과:
+codecommit/img
+    codecommit/img/pipeline-full.png
+codecommit/origin-sagemaker-pipelines-project.ipynb
+codecommit/codebuild-buildspec-origin.yml
+codecommit/tox.ini
+codecommit/codebuild-buildspec.yml
+codecommit/tests
+    codecommit/tests/test_pipelines.py
+    codecommit/tests/.ipynb_checkpoints
+        codecommit/tests/.ipynb_checkpoints/test_pipelines-checkpoint.py
+codecommit/LICENSE
+codecommit/pipelines
+    codecommit/pipelines/upload_code.py
 ```
 
 
