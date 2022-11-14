@@ -152,7 +152,16 @@ codecommit/LICENSE
 codecommit/pipelines
     codecommit/pipelines/upload_code.py
 ```
+#### (6) 코드팁 : YYYY-MM-DD-HH-MM-SS 추출하기
+```python
+from datetime import datetime
+currentDateAndTime = datetime.now()
 
+
+currentTime = currentDateAndTime.strftime("%Y-%m-%d-%H-%M-%S")
+print("The current time is", currentTime)
+# The current time is 10:06:55
+```
 
 # 4. 모델 훈련
 ---
