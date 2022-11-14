@@ -290,5 +290,25 @@ find . | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
  | |-coco.png
 ```
 
+# 7. 기타 디버깅 코드
+---
+### \# 해당 s3 의 model.tar.gz 파일을 다운로드 하고 압축 해제하는 코드 임
+- 노트북 셀에서 변수 저장
+```
+s3_path = 's3://sagemaker-us-east-1-XXXXX/ncf/repackage/model/2022-11-14-12-49-10/model.tar.gz'
+tar_name = 'model.tar.gz'
+```
+- 노트북 셀에서 아래 명령어 실행
+```
+%%sh -s {s3_path} {tar_name}
+s3_path=$1
+tar_name=$2
+echo $s3_path
+aws s3 ls $s3_path
+mkdir -p temp
+aws s3 cp $s3_path temp
+cd temp
+tar -xzvf $tar_name 
+```
 
 
