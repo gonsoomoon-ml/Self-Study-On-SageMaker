@@ -28,3 +28,14 @@
     - 하나의 SageMaker Endpoint 에서 NVIDIA Triton Inference Server 에 3개의 모델을 동시에 서빙하는 예시 임.
     - ![triton-server.png](img/triton-server.png)
     
+    
+# 3. 허깅 페이스 모델 배포 및 추론
+
+## 3.1. 공식 튜토리얼
+- 아래 허깅페이스 공식 자료는 아래와 같은 내용을 소개 하고 있습니다.
+    - Deploy a 🤗 Transformers model trained in SageMaker.
+    - Deploy a 🤗 Transformers model from the Hugging Face 
+    - Run a Batch Transform Job using 🤗 Transformers and Amazon SageMaker.
+    - Create a custom inference module.
+- [Deploy models to Amazon SageMaker](https://huggingface.co/docs/sagemaker/inference)
+   
