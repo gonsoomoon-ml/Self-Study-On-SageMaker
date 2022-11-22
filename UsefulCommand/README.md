@@ -163,6 +163,9 @@ print("The current time is", currentTime)
 # The current time is 10:06:55
 ```
 
+#### (7) Git Command
+- [README-GitCommand.md](README-GitCommand.md)
+
 # 4. 모델 훈련
 ---
 ### \# 도커 관련 명령어
