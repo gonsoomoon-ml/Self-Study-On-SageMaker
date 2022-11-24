@@ -57,7 +57,8 @@
     - 공개 되지 않음.
 
 ## 2.2 [워크샵, Apr 2021] Amazon SageMaker Pipelines Getting Started
-- https://github.com/comeddy/amazon-sagemaker-mlops
+- Git Book: https://aws-media.gitbook.io/aiml/
+    - Git: https://github.com/comeddy/amazon-sagemaker-mlops
 - 요약
     - SageMaker Pipeline Project 의 내장 템플릿을 사용하여 SageMaker Studio GUI 환경에서 코드 없이 클릭, 클릭으로 실습 해보는 내용 입니다. 처음 시작하는 입문용 입니다.  
     - 기본 내장 템블릿 "MLOps template for model building, training, and deployment" 을 구현 합니다.
