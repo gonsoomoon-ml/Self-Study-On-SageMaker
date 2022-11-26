@@ -1,9 +1,13 @@
 # Inference : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.11.14**
+**마지막 업데이트: 2022.11.26**
 
 
 ---
+
+# 0. 세이지 메이커 배포 및 추론 입문
+- 전반적인 추론 과정의 전체와 아키텍처를 잘 설명 합니다.
+    - [High-Performance & Cost-Effective Model Deployment Strategies with Amazon SageMaker](https://www.youtube.com/watch?v=_-hX-2MqiOg)
 
 # 1. 워크샵 자료
 ## 1.1 모델 서빙 페턴  가이드
