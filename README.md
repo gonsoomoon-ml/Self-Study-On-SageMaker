@@ -15,7 +15,8 @@
     - 12+ 세션 (SageMaker, Personalize)
         - SageMaker 는 초급/중급 수준의 SageMaker 입문, 모델 훈련, 배포 및 추론, ML Ops (SageMaker Pipeline) 에 대한 모듈별 비디오가 있습니다.
         - [전체 세션 목록](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
-- <font color="green">[Hot Update]</font> <Level 200-300> AWS 머신 러닝 블로그를 전문가가 설명해주기:   --> [10분만에 따라잡는 AWS 머신러닝](https://www.youtube.com/playlist?list=PLORxAVAC5fUW3U4KlNCg7BNctpJMMjUV8)
+- <font color="green">[Hot Update]</font> <Level 200-300> AWS 머신 러닝 블로그를 전문가가 설명해주기:
+    - [10분만에 따라잡는 AWS 머신러닝](https://www.youtube.com/playlist?list=PLORxAVAC5fUW3U4KlNCg7BNctpJMMjUV8)
 
 
 
