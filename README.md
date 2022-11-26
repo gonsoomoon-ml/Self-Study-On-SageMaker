@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.10.18**
+**마지막 업데이트: 2022.11.26**
 
 
 - <font color="green">[Hot Update]</font> 2022 AWS Seoul Summit
@@ -47,7 +47,7 @@
     - [SageMaker RL, 강화학습](RL/README.md)           
     - [유용한 트러블 슈팅](workaround/README.md)
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)    
-    - [New] [세이지 메이커 비용 최적화](Cost_Optimization/README.md)
+    - [세이지 메이커 비용 최적화](Cost_Optimization/README.md)
     - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
 
     
@@ -88,9 +88,9 @@
     - **개발자, 데이터 사이언티스트, 데이터 플랫폼 엔지니어, 비즈니스 의사 결정권자" 의 역할 별로 강좌가 준비되어 있습니다.** 
     - 기계 학습(ML), 인공 지능(AI), 딥러닝(DL)을 비즈니스에 적용하여 새로운 인사이트와 가치를 창출하는 방법을 배웁니다. ML을 활용하여 Amazon에서 해결한 문제를 바탕으로 실제 사례를 살펴보고 실습을 수행합니다. 다수가 무료로 제공되는 65여 개 과정을 이용할 수 있습니다.
     - https://aws.amazon.com/ko/training/learn-about/machine-learning/
-
-
 * 머신 러닝 기본 (기타 자료를 보셔도 됩니다.)
+    - AWS AI/ML Expert 김성민님의 1시간 머신러닝 개념 잡기 입니다.
+        - [1시간 만에 머신 러닝 개념 따라 잡기](https://www.youtube.com/watch?v=cYI85HFgFeg)
     * 생활 코딩: 머신러닝 
         * https://opentutorials.org/course/4548
         
@@ -106,7 +106,10 @@
 **목표: 세이지 메이커의 기본 구조와 사용법 알기**
 
 * SageMaker 소개 유튜브 비디오 (한글)
-    *  SageMaker Overview (소개 동영상) - https://youtu.be/jF2BN98KBlg
+    * 세이제 메이커 예제 싥습과 함께 전반적인 소개를 합니다.
+        - [SageMaker Overview](https://youtu.be/jF2BN98KBlg)
+    - 전반적인 기본 컨셉 및 세이지 메이커 전반을 설명 합니다.
+        - [Amazon SageMaker 통해 머신러닝 시작하기](https://www.youtube.com/watch?v=6sdr6dViK2U)
     * SageMaker demo - https://youtu.be/miIVGlq6OUk (1시간 데모에 많은 내용을 압축해서 다루고 있습니다. 반복해서 보시거나 돌려보기로 차근차근 보셔도 괜찮습니다.)
 * Introduction to Amazon SageMaker (12분)
     * 코세라 공식 세이지 메이커 소개 비디오
@@ -138,6 +141,8 @@
 
 * 아래는 **공식 AWS 머신 러닝의 교육** 에 사용되는 많은 유용한 링크가 있는 Git 입니다. 꼭 한 번 눌러 봐주세요.
     - [The Machine Learning pipeline on AWS](https://github.com/serithemage/AWS_AI_Study/tree/master/ML_Pipeline)
+* SageMaker JumpStart 입니다. 미리 만들어진 솔루션, 알고리즘 등이 있어서 샘플코드를 가지고 사직하기에 좋습니다. 개발자 가이드 문서이니 한번 보시는 것을 권장 드립니다.
+    - [SageMaker JumpStart](https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/studio-jumpstart.html)
 
 
 
@@ -204,10 +209,10 @@
     * 단계 별, 주제 별로 모든 공식 예제가 정리 되어 있습니다. 1. Getting Started, 2. SageMaker Studio, 3. AutoPilot 4.Ingest Data, 5. Label Data, 6.Prep Data, 7.Feature Store 8.Training 9.Inference 10.Frameworks 11. Workflows 12.Advanced Examples 13. Community Examples 의 대 카테고리 밑에 샘플 예제의 설명 및 코드가 있습니다.
     * https://sagemaker-examples.readthedocs.io/en/latest/index.html
         * 공식 Git: https://github.com/aws/amazon-sagemaker-examples
-
-
-* 공식 ML 블로그: 적용 사례, 다른 aws서비스와의 통합관련 예제나 기술 팁등 다양한 주제들이 다루어집니다.
-    * aws ML blog(https://aws.amazon.com/ko/blogs/machine-learning/
+* 공식 영문 ML 블로그: 적용 사례, 다른 aws서비스와의 통합관련 예제나 기술 팁등 다양한 주제들이 다루어집니다.
+    * [AWS English ML blog](https://aws.amazon.com/ko/blogs/machine-learning/)
+* 공식 한글 ML 블로그: 적용 사례, 다른 aws서비스와의 통합관련 예제나 기술 팁등 다양한 주제들이 다루어집니다.
+    * [AWS 한글 기술 ML blog](https://aws.amazon.com/ko/blogs/tech/category/artificial-intelligence/amazon-machine-learning/)
 
 
 - Julien Simon의 (SageMaker 이멘젤리스트) 유튜브 비디오
@@ -236,6 +241,8 @@
             * <Level 100-200> 빌트인 알고리즘을 이용한 한글처리 - https://github.com/daekeun-ml/blazingtext-workshop-korean
             * BERT 이용한 한글처리 - https://github.com/daekeun-ml/kobert-workshop
         * 영상 (Vision)
+            * <Level 200-300> 이미지의 피쳐 벡터 및 Elastic Search 를 통해 이미지 검색 만들기
+                - [Amazon SageMaker로 딥 러닝 기반 이미지 검색 서비스 만들기 | 개념부터 구현까지 완전 정복](https://www.youtube.com/watch?v=RkL470RnNZY)
             * <Level 200-300> 자동차 번호판 인식 문제 해결에 SageMaker 적용해보기 - https://github.com/mullue/lab-custom-model-anpr
         * 기타
             * Tensorflow 활용실습 (Tensorflow 2.0 script mode와 stepfunctions사용하기) 
