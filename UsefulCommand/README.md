@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2022.11.12**
+**마지막 업데이트: 2022.12.04**
 
 
 ---
@@ -169,26 +169,9 @@ print("The current time is", currentTime)
 # 4. 모델 훈련
 ---
 ### \# 도커 관련 명령어
+- 유용한 도커 명령어가 아래 정리되어 있습니다.
+    - [README-DockerCommand.md](README-DockerCommand.md)
 
-#### No space left (용량 부족시)
-
-- 모든 컨테이너 모두 삭제
-    - `docker container prune -f` 
-
-
-- 모든 이미지 모두 삭제
-    - `docker image prune -f --all`
-
-
-- 추가적인 용량 삭제가 필요하면 아래를 실행 하세요
-    - `rm -rf /tmp/tmp*`
-
-#### 다커 인터렉트 모드 (다커 안으로 진입)
-- docker exec -it \<Container ID\> /bin/bash 
-    
-참조: 
-- 도커로 사용으로 인한 시스템 용량 확보
-    - [Docker의 prune 사용법](https://www.lainyzine.com/ko/article/docker-prune-usage-remove-unused-docker-objects/)
     
 ### \# ECR 이미지 검색
 - AWS Deep Learing Containers
