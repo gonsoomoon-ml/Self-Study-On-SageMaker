@@ -202,6 +202,7 @@
 - [Napkin-DL](https://github.com/Napkin-DL)
 - [lunarian60](https://github.com/lunarian60)
 - [Youngjin Kim](https://github.com/comeddy)
+- [Dongjin Jang](https://github.com/dongjin-ml)
 
 ## 4. SageMaker 기본
 ---
