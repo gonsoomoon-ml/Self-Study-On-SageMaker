@@ -69,6 +69,12 @@ docker rm -f d2f83048485e
 $ docker rm $(docker ps -a -q)
 ```
 
+- 실행 중인 모든 컨테이너를 중지하고 컨테이너를 제거하고 싶다면 다음과 같이 하면 됩니다.
+```bash
+$ docker rm -f $(docker ps -qa)
+```
+
+
 # 4. 도커 관리
 ---
 ## 4.1. No space left (용량 부족시)
