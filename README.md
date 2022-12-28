@@ -110,7 +110,7 @@
 **목표: 세이지 메이커의 기본 구조와 사용법 알기**
 
 * SageMaker 소개 유튜브 비디오 (한글)
-    * 세이제 메이커 예제 싥습과 함께 전반적인 소개를 합니다.
+    * 세이제 메이커 예제 실습과 함께 전반적인 소개를 합니다.
         - [SageMaker Overview](https://youtu.be/jF2BN98KBlg)
     - 전반적인 기본 컨셉 및 세이지 메이커 전반을 설명 합니다.
         - [Amazon SageMaker 통해 머신러닝 시작하기](https://www.youtube.com/watch?v=6sdr6dViK2U)
