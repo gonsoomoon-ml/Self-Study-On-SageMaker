@@ -10,27 +10,9 @@
 ### \# 캐글 데이터 셋 다운로드 방법
 - [Kaggle Dataset 다운로드 방법](https://github.com/mullue/amazon-sagemaker-architecting-for-ml/blob/master/Starter-Code-kr/How_to_downlaod_kaggle_data/0.download_kaggle_dataset.ipynb)
 
-### \# S3 버켓 오너십 변경
-- A 계정에서 B 계정 소유의 버켓에 파일 업로시에 B 계정이 소유하게 변경
 
-```
-import boto3
-
-client = boto3.client('s3')
-
-response = client.put_bucket_ownership_controls(
-    Bucket= bucket,
-    OwnershipControls={
-        'Rules': [
-            {
-                'ObjectOwnership': 'BucketOwnerPreferred'
-            },
-        ]
-    }
-)
-```
-
-
+### \# Bucket 관련 명령 (오너십 변경, 버킷 삭제 등)
+- [Useful Bucket Command](README-BucketCommand.md)
 
 # 2. 개발 환경
 ---
