@@ -43,3 +43,7 @@ response = client.put_bucket_ownership_controls(
  
  aws s3 ls serverless-artillery-dev-serverlessdeploymentbuck-10h0whdil4ys2
 ```
+
+- Reference
+    - [Emptying a bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/empty-bucket.html)
+    - [delete-bucket](https://docs.aws.amazon.com/cli/latest/reference/s3api/delete-bucket.html)
