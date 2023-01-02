@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.11.26**
+**마지막 업데이트: 2023.01.01**
 
 ### 컨텐츠 레벨 가이드:
     - 일부 컨텐츠는 레벨 가이드가 있습니다.
@@ -45,8 +45,9 @@
     - [SageMaker 분산 훈련](DistributedTraining/README.md)        
     - [SageMaker 추론](Inference/README.md)            
     - [Inferentia 추론](Inferentia/README.md)                
+    - [SageMaker Feature Store](FeatureStore/README.md)  
     - [ML Ops on SageMaker](MLOps/README.md)    
-    - [SageMaker Vision](Vision/README.md)                   
+    - [SageMaker Vision](Vision/README.md)
     - [SageMaker NLP](NLP/README.md)               
     - [SageMaker RL, 강화학습](RL/README.md)           
     - [유용한 트러블 슈팅](workaround/README.md)
