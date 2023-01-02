@@ -9,6 +9,9 @@ SageMaker Feature Store 스스로 공부할 수 있는 링크 및 설명을 제�
 ---
 
 # 1. 주요 가이드
+- [AWS re:Invent 2022 - Store features across teams with Amazon Feature Store, feat. Zalando (AIM339)](https://www.youtube.com/watch?v=42_YO3sGEH4&list=PL2yQDdvlhXf9XsB2W76_seM6dJxcE2Pdc&index=33)
+    - [영어] 2022 리인벤트에서 Zalando 회사의 의 사용사례 및 전반적인 피처 스토어를 소개 합니다. 아래는 Zalando 의 As-Is 에서 Feature Store 도입에 대한 요구사항 입니다.
+    - ![reinvent_session.jpg](img/reinvent_session.jpg)
 
 - 김대근님의 피처 스토어 오버뷰는 직관적으로 그림과 함께 설명을 잘 하고 있습니다. 먼저 한번 보시고 다른 아래의 컨텐츠를 확인 하세요.
     - [Amazon SageMaker Feature Store Overview (김대근님 노션)](https://daekeun.notion.site/Amazon-SageMaker-Feature-Store-Overview-448610b88ae4403181151fd56aac7e0c)
@@ -21,7 +24,6 @@ SageMaker Feature Store 스스로 공부할 수 있는 링크 및 설명을 제�
 - [Feature Store Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/5c093162-c9ce-4203-ab35-0b94ca950ee8/en-US)
 ![workshop.png](img/workshop.png)
 - [Other Notebook Examples](https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store-notebooks.html)
-
 
 
 # 3. 블로그
