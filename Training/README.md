@@ -1,6 +1,6 @@
 # Training : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.03.29**
+**마지막 업데이트: 2023.01.30**
 
 
 ---
@@ -51,6 +51,13 @@
     - https://aws.amazon.com/blogs/machine-learning/choose-the-best-data-source-for-your-amazon-sagemaker-training-job/
     - ![ML-2979-image003.png](img/ML-2979-image003.png)
 
+- 아래 블로그는 BYOC 에 대한 엔드 투 엔드 쉽게 설명을 하고 있습니다. 전체적인 관점에서 정리하는데 유용합니다.
+    - [(Jan 2023) Why Bring Your Own Container to Amazon SageMaker and How to do it right !](https://medium.com/@pandey.vikesh/why-bring-your-own-container-to-amazon-sagemaker-and-how-to-do-it-right-bc158fe41ed1)
+
+## 3.5 SageMaker Toolkit
+
+- SageMkaer 는 4개의 Traiing Toolkit, 4개의 Inference Toolkit 을 제공하고 있습니다. 이를 이행하고 있으면, 훈련 및 추론의 디벌깅 및 코드의 간결화에 도움이 됩니다.
+    - [Jan 203, The Multiverse of Amazon SageMaker Toolkits](https://medium.com/@pandey.vikesh/the-multiverse-of-amazon-sagemaker-toolkits-7560c2b0f0b6)
 
 # 4. 하이퍼파라미터 튜닝 통한 모델 최적화
 ## 4.1 개발자 가이드
