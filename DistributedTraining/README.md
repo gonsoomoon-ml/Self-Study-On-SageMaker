@@ -2,7 +2,7 @@
 # SageMaker-Distributed-Training-Resource
 ---
 
-**마지막 업데이트: 2022.03.05**
+**마지막 업데이트: 2023.02.01**
 
 # 1. Video:
 
@@ -31,6 +31,11 @@ Scale up Training of Your ML Models with Distributed Training on Amazon SageMake
 
 
 # 2. Blog:  발행 시간 순으로 정렬 함.
+
+- (Jan 2023) 스텝 바이 스텝으로 BERT 를 세이지 메이커로 스크래치부터 훈련하는 가이드 입니다. 
+    - [­­­Training BERT from Scratch on Your Custom Domain Data: A Step-by-Step Guide with Amazon SageMaker](https://medium.com/@shankar.arunp/training-bert-from-scratch-on-your-custom-domain-data-a-step-by-step-guide-with-amazon-25fcbee4316a)
+- (Jan 2023) 세이지 메이커 기반에서 “스크래치” 부터 GPT 를 학습하는 블로그 입니다. 고객들의 해당 도메인에서 해볼 수 있게 가이드 입니다. 
+    - [Easily Build Your Own GPT from Scratch using AWS: A Comprehensive Guide for Domain Adaptation](https://medium.com/@shankar.arunp/easily-build-your-own-gpt-from-scratch-using-aws-51811b6355d3)
 
 * Amazon SageMaker Simplifies Training Deep Learning Models With Billions of Parameters (Dec 2020)
     * https://aws.amazon.com/ko/blogs/aws/amazon-sagemaker-simplifies-training-deep-learning-models-with-billions-of-parameters/
