@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.01.01**
+**마지막 업데이트: 2023.02.12**
 
 ### 컨텐츠 레벨 가이드:
     - 일부 컨텐츠는 레벨 가이드가 있습니다.
@@ -20,27 +20,19 @@
 - <font color="green">[Hot Update]</font> <Level 200-300> AWS 머신 러닝 블로그를 전문가가 설명해주기:
     - [10분만에 따라잡는 AWS 머신러닝](https://www.youtube.com/playlist?list=PLORxAVAC5fUW3U4KlNCg7BNctpJMMjUV8)
 
-
-
-
-
-
 ---
 
 **이 문서의 목적은  혼자 SageMaker 의 학습을 하기 위한 자료 및 링크가 있습니다. 아래와 같은 큰 목차에 관련 정보가 있으니 참고 하세요.**
 
 - [알림] 아래 링크는 깃 리파지토리를 다운로드 하시고 README 파일을 열고 클릭시 작동 됩니다. 웹페이지에서 보실때는 스크롤다운해서 확인 바랍니다.
-
-- [1. SageMaker 선수 지식 및 101](#1.-SageMaker-선수-지식-및-101)
-- [2. SageMaker 입문](#2.-SageMaker-입문)
-- [3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크
-](#3.-특집-이벤트)
-- [4. SageMaker 기본](#4.-SageMaker-기본)
-- [5. 유용한 자료 (백서 등)](#5.-유용한-자료-(백서-등))
-- [6. 체계적인 교육](#6.-체계적인-교육)
-- [7. 아마존 사이언스 및 최신 ML 트랜드](#7.-아마존-사이언스)
-
-
+    - [1. SageMaker 선수 지식 및 101](#1.-SageMaker-선수-지식-및-101)
+    - [2. SageMaker 입문](#2.-SageMaker-입문)
+    - [3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크
+    ](#3.-특집-이벤트)
+    - [4. SageMaker 기본](#4.-SageMaker-기본)
+    - [5. 유용한 자료 (백서 등)](#5.-유용한-자료-(백서-등))
+    - [6. 체계적인 교육](#6.-체계적인-교육)
+    - [7. 아마존 사이언스 및 최신 ML 트랜드](#7.-아마존-사이언스)
 - 8.세이지 메이커 상세 및 기타 지식 입니다. [아래 링크 제공 됨. 클릭 하세요.]
     - [SageMaker 개발 환경](Environment/README.md)
     - [SageMaker 훈련](Training/README.md)
@@ -51,6 +43,7 @@
     - [ML Ops on SageMaker](MLOps/README.md)    
     - [SageMaker Vision](Vision/README.md)
     - [SageMaker NLP](NLP/README.md)               
+    - [SageMaker Text-To-Image](TextToImage/README.md)                  
     - [SageMaker RL, 강화학습](RL/README.md)           
     - [유용한 트러블 슈팅](workaround/README.md)
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)    
