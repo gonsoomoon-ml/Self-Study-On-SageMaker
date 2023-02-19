@@ -1,6 +1,6 @@
 # SageMaker Text-To-Image
 
-**마지막 업데이트: 2023.02.12**
+**마지막 업데이트: 2023.02.19**
 
 
 ---
@@ -8,7 +8,16 @@ SageMaker Text-To-Image 스스로 공부할 수 있는 링크 및 설명을 제�
 
 ---
 
-# 1. 블로그
+# 1. Stable Diffusion Landscape
+Generative AI 로서 Stable Diffusion 의 뉴스가 많이 나옵니다. 기사 및 블로그가 나오다 보니, Stable Diffusion 을 A to Z 까지 알고 싶을 수 있습니다. 아래 링크 클릭해서 확인 해보세요.
+- Stable Diffusion Landscape
+    - [Stable Diffusion Landscape and How it works](Stable-Diffusion.md)
+
+![sd_epic_01.png](img/sd_epic_01.png)
+
+
+
+# 2. 블로그
 최신 블로그 순서로 정리되어 있습니다. 처음 접근하시는 분은 가장 아래에서 부터 보시면 좋습니다.
 
 - SageMaker Jumpstart 를 사용하여 미리 훈련된 "model-upscaling-stabilityai-stable-diffusion-x4-upscaler-fp16" 를 배포하여, 기존의 이미지를 추론하여 해상도를 높이는 방법을 설명 합니다.
