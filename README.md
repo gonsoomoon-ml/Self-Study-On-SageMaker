@@ -43,7 +43,7 @@
     - [ML Ops on SageMaker](MLOps/README.md)    
     - [SageMaker Vision](Vision/README.md)
     - [SageMaker NLP](NLP/README.md)               
-    - [SageMaker Text-To-Image](TextToImage/README.md)                  
+    - [SageMaker Stable Diffusion](Stable_Diffusion/README.md)                  
     - [SageMaker RL, 강화학습](RL/README.md)           
     - [유용한 트러블 슈팅](workaround/README.md)
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)    

@@ -1,10 +1,10 @@
-# SageMaker Text-To-Image
+# SageMaker Stable Diffusion
 
 **마지막 업데이트: 2023.02.19**
 
 
 ---
-SageMaker Text-To-Image 스스로 공부할 수 있는 링크 및 설명을 제공 합니다. 자세한 사항은 참조의 블로그 및 기타 링크를 확인 부탁 합니다.
+SageMaker Stable Diffusion 스스로 공부할 수 있는 링크 및 설명을 제공 합니다. 자세한 사항은 참조의 블로그 및 기타 링크를 확인 부탁 합니다.
 
 ---
 
