@@ -16,8 +16,10 @@ Generative AI 로서 Stable Diffusion 의 뉴스가 많이 나옵니다. 기사 
 ![sd_epic_01.png](img/sd_epic_01.png)
 
 
+# 2. Stable Diffusio 작동 원리 (파인 튜닝 포함)
+어떻게 내부적으로 작동하는지와 파인 튜닝에 대해서 여기를 [SD_How_it_works.md](SD_How_it_works.md) 클릭하세요.
 
-# 2. 블로그
+# 3. 블로그
 최신 블로그 순서로 정리되어 있습니다. 처음 접근하시는 분은 가장 아래에서 부터 보시면 좋습니다.
 
 ### [Mar 2023, Virtual fashion styling with generative AI using Amazon SageMaker ]
