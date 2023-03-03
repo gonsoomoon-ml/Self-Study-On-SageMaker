@@ -28,9 +28,16 @@ Generative AI 로서 Stable Diffusion 의 뉴스가 많이 나옵니다. 기사 
     - [Mar 2023, Virtual fashion styling with generative AI using Amazon SageMaker ](https://aws.amazon.com/blogs/machine-learning/virtual-fashion-styling-with-generative-ai-using-amazon-sagemaker/) 
     - ![solution_arch_blog.png](img/solution_arch_blog.png)
 
+
+### [Feb 2023, Fine-tune text-to-image Stable Diffusion models with Amazon SageMaker JumpStart]
+- Stable Diffusion 을 통해서 파인 튜닝하는 방법에 대한 단계를 설명 합니다. 이를 SageMaker API 를 통해서 어떻게 하고, 또한 80개 정도의  오픈된 파인튜닝 모델도 소개 합니다.
+    - [Feb 2023, Fine-tune text-to-image Stable Diffusion models with Amazon SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/upscale-images-with-stable-diffusion-in-amazon-sagemaker-jumpstart/)    
+    - ![ML-13389-image003.jpg](img/ML-13389-image003.jpg)
+
+
 ### [Jan 2023, Upscale images with Stable Diffusion in Amazon SageMaker JumpStart]
 - SageMaker Jumpstart 를 사용하여 미리 훈련된 "model-upscaling-stabilityai-stable-diffusion-x4-upscaler-fp16" 를 배포하여, 기존의 이미지를 추론하여 해상도를 높이는 방법을 설명 합니다.
-    - [Jan 2023, Upscale images with Stable Diffusion in Amazon SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/upscale-images-with-stable-diffusion-in-amazon-sagemaker-jumpstart/)    
+    - [Jan 2023, Upscale images with Stable Diffusion in Amazon SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/fine-tune-text-to-image-stable-diffusion-models-with-amazon-sagemaker-jumpstart/)    
     - ![ml-12752-image001.jpg](img/ml-12752-image001.jpg)
 
 ### [Nov 2022, Generate images from text with the stable diffusion model on Amazon SageMaker JumpStart]
