@@ -20,7 +20,7 @@ Generative AI 로서 Stable Diffusion 의 뉴스가 많이 나옵니다. 기사 
 어떻게 내부적으로 작동하는지와 파인 튜닝에 대해서 여기를 
 
 (1) 2.1 전체 작동 원리
-- [SD_How_it_works](SD_How_it_works)
+- [SD_How_it_works](SD_How_it_works.md)
 
 (2) 2.2 파인 튜닝 원리 및 팁
 - [SD_Fine_Tuning.](SD_Fine_Tuning.md)
