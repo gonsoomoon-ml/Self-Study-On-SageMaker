@@ -36,28 +36,3 @@ Text Conditioning 은 우리가 입력한 텍스트로 Diffusion 이 "가이드"
 아래는 [High-Resolution Image Synthesis with Latent Diffusion Models](https://ommer-lab.com/research/latent-diffusion-models/) 논문에 있는 아티텍처 입니다. 위의 내용을 도식화한 그림 입니다. 
 ![paper_concept.jpg](img/paper_concept.jpg)
 
-
-# 2. Stable Diffusion 파인 튜닝.
-
-## 2.1 How fine-tunig works
-
-A Stable Diffusion model can be decomposed into several key models:
-* A text encoder that projects the input prompt to a latent space. (The caption associated with an image is referred to as the "prompt".)
-* A variational autoencoder (VAE) that projects an input image to a latent space acting as an image vector space.
-* A diffusion model that refines a latent vector and produces another latent vector, conditioned on the encoded text prompt
-* A decoder that generates images given a latent vector from the diffusion model.
-- **It's worth noting that during the process of generating an image from a text prompt, the image encoder is not typically employed.**
- 
-
-The process of fine-tuning
-* An input text prompt is projected to a latent space by the text encoder.
-* An input image is projected to a latent space by the image encoder portion of the VAE.
-* A small amount of noise is added to the image latent vector for a given timestep.
-* The diffusion model uses latent vectors from these two spaces along with a timestep embedding to predict the noise that was added to the image latent.
-* A reconstruction loss is calculated between the predicted noise and the original noise added in step 3.
-* Finally, the diffusion model parameters are optimized w.r.t this loss using gradient descent.
-- **Note that only the diffusion model parameters are updated during fine-tuning, while the (pre-trained) text and the image encoders are kept frozen.**
-    
-- Ref: [Fine-tuning Stable Diffusion](https://keras.io/examples/generative/finetune_stable_diffusion/)
-
-
