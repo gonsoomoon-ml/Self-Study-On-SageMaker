@@ -148,6 +148,41 @@ SageMaker Console 로 이동해서 보면 아래와 같이 훈련 잡이 생성 
 # 5. 결론
 
 SageMaker Studio 및 Notebook 의 쥬피터 랩을 통한 훈련 코드의 작성이 가능하고, 다른 SageMaker 관련 서비스와 연결하여 사용하는 장점이 있습니다. 하지만 간단한 훈련 코드의 경우는 로컬에서 테스트해서, 클라우드로 훈련 잡을 생성하는 부분도 또 하나의 사용 옵션이 될 수 있습니다. 
+
+# 6. English Summary Version
+
+We assume that you use VS Code in your local machine such as laptop.
+
+You need the following steps:
+
+
+## Install necessary software and extensions on your local machine
+* Install VS Code and extensions such as Python extension and Jupyter
+* Install Anaconda
+* Install Git as an option
+* Install Docker and Docker-compose as an option
+
+## Configure AWS 
+* Create an IAM user with programmatic access that enables an access key ID and secret access key for the AWS CLI.
+* Attach the permissions AmazonSageMakerFullAccess and AmazonS3FullAccess.
+    * Limit the permissions to specific Amazon Simple Storage Service (http://aws.amazon.com/s3) (Amazon S3) buckets if possible.
+* Create an execution role, IAM role, for the SageMaker AmazonSageMakerFullAccess and AmazonS3FullAccess permissions. SageMaker uses this role to perform operations on your behalf on the AWS hardware that is managed by SageMaker.
+* Install the AWS CLI on your local computer and quick configuration with aws configure: You enter the access key ID and secret access key you created as well as default region name and default output format.
+
+## Install SageMaker Python SDK
+* Create virtual environment based on Conda you installed
+* Activate the virtual environment 
+* Install Sagemaker Python SDK using ‘pip install sagemaker’
+
+## Write and run a training code in VS Code
+* Write a training code using SageMaker python SDK in the python environment which is the virtual environment you created. Use the IAM role to be passed as an argument in SageMaker Estimator
+* Run the training code
+
+## AWS Resource Links:
+- Run your TensorFlow job on Amazon SageMaker with a PyCharm IDE
+    * https://aws.amazon.com/blogs/machine-learning/run-your-tensorflow-job-on-amazon-sagemaker-with-a-pycharm-ide/
+
+
     
     
     
