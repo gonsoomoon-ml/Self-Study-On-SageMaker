@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.04.09**
+**마지막 업데이트: 2023.04.11**
 
 ### 컨텐츠 레벨 가이드:
     - 일부 컨텐츠는 레벨 가이드가 있습니다.
@@ -265,6 +265,8 @@
 ---
 
 * ML 프로젝트 전반에 대한 이해가 필요하시면 다음 AWS ML백서들이 도움이 되실 수 있습니다.
+    - Cloud 및 On-premise 에서 모델 개발, 모델 튜닝, 모델 서빙 패턴에 대한 가이드 입니다.
+        - [Hybrid Machine Learning](https://docs.aws.amazon.com/whitepapers/latest/hybrid-machine-learning/hybrid-machine-learning.html)
     - AWS 딥러닝 가이드 백서 입니다.
         - [한글] AWS 기반 딥러닝 백서 (2019년 8월)
             - https://d2908q01vomqb2.cloudfront.net/7b52009b64fd0a2a49e6d8a939753077792b0554/2020/08/06/Deep_Learning_on_AWS_KO-KR.pdf
