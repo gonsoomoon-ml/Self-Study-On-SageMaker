@@ -265,7 +265,7 @@
 ---
 
 * ML 프로젝트 전반에 대한 이해가 필요하시면 다음 AWS ML백서들이 도움이 되실 수 있습니다.
-    - Cloud 및 On-premise 에서 모델 개발, 모델 튜닝, 모델 서빙 패턴에 대한 가이드 입니다.
+    - Cloud 및 On-premise 에서 모델 개발, 모델 튜닝, 모델 서빙 패턴에 대한 가이드 입니다.(2021년 8월)
         - [Hybrid Machine Learning](https://docs.aws.amazon.com/whitepapers/latest/hybrid-machine-learning/hybrid-machine-learning.html)
     - AWS 딥러닝 가이드 백서 입니다.
         - [한글] AWS 기반 딥러닝 백서 (2019년 8월)
