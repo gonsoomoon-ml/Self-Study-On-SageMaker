@@ -2,7 +2,10 @@
 # SageMaker-Distributed-Training-Resource
 ---
 
-**마지막 업데이트: 2023.02.01**
+**마지막 업데이트: 2023.05.01**
+
+# 0. FSx for Luster 설치 가이드
+- [aker Notebook 및 FSX for Luster 생성 가이드](https://github.com/gonsoomoon-ml/FSx-Luster-On-SageMaker/blob/main/0_setup_environment/1.VPC_SM_Notebook/README.md)
 
 # 1. Video:
 
