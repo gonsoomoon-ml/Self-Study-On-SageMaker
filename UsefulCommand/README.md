@@ -148,6 +148,9 @@ print("The current time is", currentTime)
 #### (7) Git Command
 - [README-GitCommand.md](README-GitCommand.md)
 
+#### (8) 한글 데이터 전처리 가이드
+- [한글 데이터 전처리 가이드](Pre_Processing_Guide.md)
+
 # 4. 모델 훈련
 ---
 ### \# 도커 관련 명령어
