@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.05.01**
+**마지막 업데이트: 2023.05.04**
 
 ### 컨텐츠 레벨 가이드:
     - 일부 컨텐츠는 레벨 가이드가 있습니다.
@@ -265,6 +265,10 @@
 ---
 
 * ML 프로젝트 전반에 대한 이해가 필요하시면 다음 AWS ML백서들이 도움이 되실 수 있습니다.
+    - 모델 개발, 보안, 모니터링에 대한 SageMaker 기술 가이드 입니다.
+        - [Build a Secure Enterprise Machine Learning Platform on AWS AWS Technical Guide](https://d1.awsstatic.com/whitepapers/build-secure-enterprise-ml-platform.pdf?did=wp_card&trk=wp_card)
+    - SageMaker Studio Administration 에 대한 베스트 프렉티스 백서 입니다. (강추입니다.)
+        - [SageMaker Studio Administration Best Practices](https://docs.aws.amazon.com/whitepapers/latest/sagemaker-studio-admin-best-practices/permissions-management.html)
     - Cloud 및 On-premise 에서 모델 개발, 모델 튜닝, 모델 서빙 패턴에 대한 가이드 입니다.(2021년 8월)
         - [Hybrid Machine Learning](https://docs.aws.amazon.com/whitepapers/latest/hybrid-machine-learning/hybrid-machine-learning.html)
     - AWS 딥러닝 가이드 백서 입니다.
