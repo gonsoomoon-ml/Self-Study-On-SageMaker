@@ -281,6 +281,11 @@
     - AWS ML Well Architect Framework (WAF)
         * ML 의 WAF 내용 백서 입니다.
         * https://d1.awsstatic.com/whitepapers/architecture/wellarchitected-Machine-Learning-Lens.pdf
+    - Machine Learning Best Practices in Financial Services
+        - 보안이 강조되는 영역을 위한 가이드 문서 입니다.
+        - https://d1.awsstatic.com/whitepapers/machine-learning-in-financial-services-on-aws.pdf
+
+        
         
         
 * 외부 사이트
