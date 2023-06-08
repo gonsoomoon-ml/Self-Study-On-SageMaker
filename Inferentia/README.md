@@ -1,6 +1,6 @@
 # Inferentia : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.06.08**
+**마지막 업데이트: 2023.06.09**
 
 
 ---
