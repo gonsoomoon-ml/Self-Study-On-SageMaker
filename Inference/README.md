@@ -1,6 +1,6 @@
 # Inference : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2022.12.10**
+**마지막 업데이트: 2023.06.17**
 
 
 ---
@@ -17,6 +17,10 @@
     
     
 # 2. 추천 블로그
+- (Jun 2023, 수준: 고급) [How Forethought saves over 66% in costs for generative AI models using Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/how-forethought-saves-over-66-in-costs-for-generative-ai-models-using-amazon-sagemaker/?sc_channel=sm&sc_campaign=Machine_Learning&sc_publisher=LINKEDIN&sc_geo=GLOBAL&sc_outcome=awareness&trk=machine_learning&linkId=220118422)
+    - Embedding Models, AutoComplete Models 을 EKS 에서 배포해서 사용하다가 SageMaker Multi-Model-Endpoint(MME) 로 마이그레이션을 한 블로그 입니다. SageMaker Endpoint 의 Triton Server 를 통하여 MME 를 구현한 사례 입니다.
+    - ![ML-13958-image004.jpg](img/ML-13958-image004.jpg)
+    
 - (Nov 2022, 수준: 중급) [Getting started with deploying real-time models on Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/getting-started-with-deploying-real-time-models-on-amazon-sagemaker/) 
     - 전체적인 SageMaker 의 추론 옵션을 설명을 하고 있음. 
     - 또한 프로그래밍 관점에서  SageMaker Python SDK 와 AWS SDK/Boto3 의 차이점을 기술 함.
