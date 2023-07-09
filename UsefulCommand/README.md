@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2022.12.04**
+**마지막 업데이트: 2023.07.09**
 
 
 ---
@@ -113,10 +113,13 @@ def print_files_in_dir(root_dir, prefix):
     files = os.listdir(root_dir)
     for file in files:
         path = os.path.join(root_dir, file)
-        print(prefix + path)
-        if os.path.isdir(path):
-            print_files_in_dir(path, prefix + "    ")
-            
+        if ".ipynb_checkpoints" in path: # ipynb_checkpoints 폴더 스킵
+            pass
+        else:
+            print(prefix + path)
+            if os.path.isdir(path):
+                print_files_in_dir(path, prefix + "    ")
+                
 print_files_in_dir(root_dir = "codecommit", prefix="")            
 
 예시 결과:
