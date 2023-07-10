@@ -51,3 +51,19 @@
     - 하나의 SageMaker Endpoint 에서 NVIDIA Triton Inference Server 에 3개의 모델을 동시에 서빙하는 예시 임.
     - ![triton-server.png](img/triton-server.png)
     
+# 4. Bring Your Own Model (BYOM) 
+- 다른 곳에서 모델을 학습한 후에 SageMaker 에서 모델을 호스팅 하는 예제 입니다.
+    - [Amazon SageMaker XGBoost Bring Your Own Model](https://github.com/aws/amazon-sagemaker-examples/tree/main/advanced_functionality/xgboost_bring_your_own_model)
+    
+    
+# 5. Bring Your Own Inference Container (BYOC)
+- 아래는 BYOC 를 잘 설명하는 블로그 입니다.
+    - [Why Bring Your Own Container to Amazon SageMaker and How to do it right !](https://medium.com/@pandey.vikesh/why-bring-your-own-container-to-amazon-sagemaker-and-how-to-do-it-right-bc158fe41ed1)
+- 아래는 Inference, training docker container 를 기술하고 있고, SageMaker Inference Toolkit 를 참조 하시면 됩니다.
+    - [Adapting your own Docker container to work with SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers-adapt-your-own.html)
+- 아래는 본인의 추론 컨테이너를 SageMaker 에 맞게 수정하는 작업을 설명 합니다.
+    - [Adapting Your Own Inference Container](https://docs.aws.amazon.com/sagemaker/latest/dg/adapt-inference-container.html)
+- 아래는 추천 알고리즘 (NCF) 를 호스팅하기 위해서 기존의 PyTorch Docker Image 를 베이스로 해서 Extension 하여 사용자 정의 도커 이미지를 만드는 예제 입니다.
+    - [Extend PyTorch Inference Container](https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/recommendation/Neural-Collaborative-Filtering-On-SageMaker/2_Inference)    
+- Scikit-Learn 의 BYOC 예제 코드 입니다.
+    - [Scikit-Learn, BYOC](https://github.com/aws/amazon-sagemaker-examples/tree/main/advanced_functionality/scikit_bring_your_own)
