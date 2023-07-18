@@ -6,6 +6,7 @@
 ---
 
 ## * [New : Foundation Model (FM) 배포 및 추론](FM-README.md)
+## * [New : Inference with Appliacton](Application-README.md)
 
 # 0. 세이지 메이커 배포 및 추론 입문
 - 전반적인 추론 과정의 전체와 아키텍처를 잘 설명 합니다.
