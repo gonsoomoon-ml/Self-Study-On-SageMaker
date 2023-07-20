@@ -65,6 +65,8 @@
         - Scikit-Learn 의 BYOC 예제 코드 입니다.
             - [Scikit-Learn, BYOC](https://github.com/aws/amazon-sagemaker-examples/tree/main/advanced_functionality/scikit_bring_your_own)    
     - [Why Bring Your Own Container to Amazon SageMaker and How to do it right !](https://medium.com/@pandey.vikesh/why-bring-your-own-container-to-amazon-sagemaker-and-how-to-do-it-right-bc158fe41ed1)
+- [강추] 사용자가 생성한 도커 이미지를 로컬에서 "실행" , "디버깅" 하는 예시 입니다. 
+    - [사용자 정의 도커 디버깅 가이드](Scikit-Inf-README.md)                
 - 아래는 Inference, training docker container 를 기술하고 있고, SageMaker Inference Toolkit 를 참조 하시면 됩니다.
     - [Adapting your own Docker container to work with SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers-adapt-your-own.html)
 - 아래는 본인의 추론 컨테이너를 SageMaker 에 맞게 수정하는 작업을 설명 합니다.
