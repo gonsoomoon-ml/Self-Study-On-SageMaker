@@ -1,6 +1,6 @@
 # Inference : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.07.18**
+**마지막 업데이트: 2023.07.20**
 
 
 ---
@@ -61,6 +61,9 @@
     
 # 5. Bring Your Own Inference Container (BYOC)
 - 아래는 BYOC 를 잘 설명하는 블로그 입니다.
+    - [Amazon SageMaker 기반 컨테이너를 활용한 Scikit-Learn 모델 훈련 및 호스팅 방법](https://aws.amazon.com/ko/blogs/korea/train-and-host-scikit-learn-models-in-amazon-sagemaker-by-building-a-scikit-docker-container/)
+        - Scikit-Learn 의 BYOC 예제 코드 입니다.
+            - [Scikit-Learn, BYOC](https://github.com/aws/amazon-sagemaker-examples/tree/main/advanced_functionality/scikit_bring_your_own)    
     - [Why Bring Your Own Container to Amazon SageMaker and How to do it right !](https://medium.com/@pandey.vikesh/why-bring-your-own-container-to-amazon-sagemaker-and-how-to-do-it-right-bc158fe41ed1)
 - 아래는 Inference, training docker container 를 기술하고 있고, SageMaker Inference Toolkit 를 참조 하시면 됩니다.
     - [Adapting your own Docker container to work with SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers-adapt-your-own.html)
@@ -68,5 +71,3 @@
     - [Adapting Your Own Inference Container](https://docs.aws.amazon.com/sagemaker/latest/dg/adapt-inference-container.html)
 - 아래는 추천 알고리즘 (NCF) 를 호스팅하기 위해서 기존의 PyTorch Docker Image 를 베이스로 해서 Extension 하여 사용자 정의 도커 이미지를 만드는 예제 입니다.
     - [Extend PyTorch Inference Container](https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/recommendation/Neural-Collaborative-Filtering-On-SageMaker/2_Inference)    
-- Scikit-Learn 의 BYOC 예제 코드 입니다.
-    - [Scikit-Learn, BYOC](https://github.com/aws/amazon-sagemaker-examples/tree/main/advanced_functionality/scikit_bring_your_own)
