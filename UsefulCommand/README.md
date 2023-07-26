@@ -1,6 +1,6 @@
 # 유용한 명령어
 
-**마지막 업데이트: 2023.07.09**
+**마지막 업데이트: 2023.07.26**
 
 
 ---
@@ -162,9 +162,13 @@ print("The current time is", currentTime)
 
     
 ### \# ECR 이미지 검색
+#### 방법 1: 제공된 링크 정보 이용
+
 - AWS Deep Learing Containers
     - SageMaker, EC2, EKS, ECS 에서 사용 가능한 Deep Learing Containers 리스트 함.
     - https://github.com/aws/deep-learning-containers/blob/master/available_images.md
+
+#### 방법 2: AWS CLI 이용
 - 아래 명령어는 실행되는 user 혹은  role 에 "AmazonEC2ContainerRegistryFullAccess " 정책이 있어야 합니다.
 
 ```
@@ -195,7 +199,24 @@ aws ecr describe-images --repository-name pytorch-inference --registry-id 763104
                 "1.8.1-gpu-py36-cu111-ubuntu18.04-v1.4"
 ```
 
+#### 방법 3 : SageMaker Python SDK 이용
 
+```Python
+# Image URIs SDK
+# https://sagemaker.readthedocs.io/en/stable/api/utility/image_uris.html
+
+img_uri = image_uris.retrieve(
+    framework="pytorch", 
+    image_scope="inference", 
+    instance_type = "ml.p3.8xlarge", 
+    region="ap-northeast-2", 
+    version="1.13.1")
+img_uri
+```
+
+#### 방법 4: SageMaker Python SDK 설치시 인스톨된 파일 확인 
+아래는 세이지 메이커 노트북 인스턴스에 설치된 SageMaker Python SDK 의 폴더에 접근해서 실제 JSON 파일을 열어서 제공된 버전을 확인할 수 있습니다.
+![sm_image_json.png](img/sm_image_json.png)
 
 # 5. 모델 배포 및 추론
 ---
