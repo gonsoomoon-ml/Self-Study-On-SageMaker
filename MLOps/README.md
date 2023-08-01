@@ -1,6 +1,6 @@
 # ML OPs on SageMaker Step by Step
 
-**마지막 업데이트: 2022.10.18**
+**마지막 업데이트: 2023.08.01**
 
 
 ---
@@ -21,22 +21,46 @@
 ![mlops_datalake.png](img/mlops_datalake.png)
 
 
-## 1.2 SageMaker Model Building Pipeline 으로 개발/프로덕션 분리 유스 케이스
+## 1.2 (June 2023) SK텔레콤의 AWS Inferentia와 AWS Step Functions를 활용한 기계학습(ML) 파이프라인 구축 사례
+-  "ML서비스 개발팀은 Amazon SageMaker, AWS Step Functions, 그리고 AWS Inferentia를 통해 에이닷의 추천 시스템을 구축하고 있고, 사용자의 서비스 사용 패턴, 위치, 선호도 등을 분석하고 그에 따른 맞춤형 추천을 제공"
+    - https://aws.amazon.com/ko/blogs/tech/skt-mlops-using-aws-inferentia-stepfunctions/
+![SKT_MLOps_1.png](img/SKT_MLOps_1.png)
+
+## 1.3 (Apr 2023) Amazon SageMaker와 Amazon MWAA를 활용한 29CM의 개인화 추천시스템 MLOps 구축여정
+- "빠른 프로젝트 진행을 위해서는 관리형 클라우드 서비스를 이용하는 것이 효율적이라 판단했고, 여러 조사 끝에 Amazon SageMaker와 Amazon Managed Workflows for Apache Airflow(MWAA)를 사용하기로 결정"
+    - https://aws.amazon.com/ko/blogs/tech/29cm-sagemaker-mwaa-recsys-mlops-journey/
+![Picture3-2.png](img/Picture3-2.png)
+
+## 1.4 (Feb 2023) 농심의 Amazon SageMaker를 활용한 원자재 가격예측과 MLOps 여정
+- "데이터 수집부터 AI/ML 모델을 학습하고 배포하는 단계까지 자동화하는 MLOps 아키텍처 구축의 필요성, SageMaker를 통해서 향후 농심의 타 AI 서비스에도 적용할 수 있는 AI 서비스 아키텍처 템플릿을 구축하는 필요성"
+    - https://aws.amazon.com/ko/blogs/tech/nongshim-amazon-sagemaker-material-forecast-mlops/
+![1_전체-도안_new-4.png](img/nongsim-new-4.png)
+
+## 1.5 (Jan 2023) AWS를 이용한 MLOps 구축 사례 살펴보기
+- "많은 기업들은 이미 AWS에서 기업의 환경에 적합한 MLOps 환경을 구축하고자 AWS의 다양한 서비스들을 활용하여 만들어가고 있으며, 그중에서 공개된 주요 구축 사례들을 정리하여 공유"
+    - https://aws.amazon.com/ko/blogs/tech/aws-mlops-use-case/
+![new_choi_mlops_picture3 (1).png](img/new_choi_mlops_picture.png)    
+
+
+## 1.6 SageMaker Model Building Pipeline 으로 개발/프로덕션 분리 유스 케이스
 - ML Ops 의 특정 솔류션 (예: SageMaker) 에 상관 없이 논리적 구성도를 작성하고, 이를 기반으로 어떠한 물리적 구현을 할 수 있습니다. 아래 링크 클릭하여 상세 사항 확인 해보세요.
     - [ML Ops 논리적, 물리적 아키텍쳐](MLOps_SM_MBP_01.md)
 
 
 # 2. 초급, 중급
 
-## 2.0 [백서, Dec 2020] MLOps: Continuous Delivery for Machine Learning on AWS
+## 2.0 [백서, Dec 2020] [MLOps: Continuous Delivery for Machine Learning on AWS](https://d1.awsstatic.com/whitepapers/mlops-continuous-delivery-machine-learning-on-aws.pdf)
 - [알림] 내용이 많아서 나중에 Deep Dive 시 이용하시면 좋습니다.
 - MLOps 의 백서 중의 하나로서 여러개의 회사 (예: ALteryX, Dataiku, Domino) 및 AWS Well Architect 를 소개 합니다.
 - AWS Well Architect 일부
     - ![datalake_mlops.png](img/datalake_mlops.png)
 
+## 2.1 [워크샵] 추천 알고리즘 (NCF) MLOps
+- 레고 블럭을 구성 하여 완성품 (예: 탑, 비행기, 배) 을 만들듯이, 데이터 과학자가 ML Ops 를 직접 구성하고 단계별로 만들어서 실행
+    - https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/recommendation/Neural-Collaborative-Filtering-On-SageMaker/3_MLOps
+![final_mlops_archi.png](img/final_mlops_archi.png)    
 
-
-## 2.1 [블로그, Apr 2020] How Slalom and WordStream Used MLOps to Unify Machine Learning and DevOps on AWS
+## 2.2 [블로그, Apr 2020] How Slalom and WordStream Used MLOps to Unify Machine Learning and DevOps on AWS
 - 개념적으로, 아키텍쳐 관점에서 모범이 되는 사례이기에 가장 처음 소개 합니다. 코드가 없고 사례를 설명을 하는 블로그 입니다.
 - https://aws.amazon.com/blogs/apn/how-slalom-and-wordstream-used-mlops-to-unify-machine-learning-and-devops-on-aws/
    
@@ -56,7 +80,7 @@
 - 코드
     - 공개 되지 않음.
 
-## 2.2 [워크샵, Apr 2021] Amazon SageMaker Pipelines Getting Started
+## 2.3 [워크샵, Apr 2021] Amazon SageMaker Pipelines Getting Started
 - Git Book: https://aws-media.gitbook.io/aiml/
     - Git: https://github.com/comeddy/amazon-sagemaker-mlops
 - 요약
@@ -69,7 +93,7 @@
     - 실습 시간: 약 40 분
     - 위의 제목 링크
 
-## 2.3 [블로그, Jan 2021] Building, automating, managing, and scaling ML workflows using Amazon SageMaker Pipelines
+## 2.4 [블로그, Jan 2021] Building, automating, managing, and scaling ML workflows using Amazon SageMaker Pipelines
 - https://aws.amazon.com/blogs/machine-learning/building-automating-managing-and-scaling-ml-workflows-using-amazon-sagemaker-pipelines
 - 요약
     - SageMaker Pipeline Project의 기본 내장 템블릿 "MLOps template for model building, training, and deployment" 을 기반으로 사용자의 코드를 넣어서 만들어 보는 예시 입니다. 
@@ -84,7 +108,7 @@
 
 
 
-## 2.4 [워크샵, Aug 2021] SageMaker-Pipelines-Step-By-Step 워크샵
+## 2.5 [워크샵, Aug 2021] SageMaker-Pipelines-Step-By-Step 워크샵
 - https://github.com/gonsoomoon-ml/SageMaker-Pipelines-Step-By-Step
 - 요약
     - SageMake Model Building Pipeline 을 단계 별로 실습할 수 있습니다. 크게 아래 3가지 Phase 가 있습니다.
@@ -102,7 +126,7 @@
     - 위의 링크 임.
 
 
-## 2.5 [워크샵, Oct 2021] Amazon SageMaker를 이용한 시계열 학습과 MLOps 구성
+## 2.6 [워크샵, Oct 2021] Amazon SageMaker를 이용한 시계열 학습과 MLOps 구성
 - https://github.com/Napkin-DL/sm-informer-mlops-quicksight
 - 요약
     - SageMaker에서 Time series 모델을 학습하는 방법과 함께 SageMaker Pipelines을 이용하여 간단한 MLOps를 구성하는 실습 과정입니다. 
