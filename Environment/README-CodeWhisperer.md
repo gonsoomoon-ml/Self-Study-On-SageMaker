@@ -18,9 +18,12 @@
     
     
 # 3. SageMaker Studio Notebook 에서 코드 추천 데모
-- ![13-CodeWhisperer-SageMaker-Studio-Notebook.mp4](img/13-CodeWhisperer-SageMaker-Studio-Notebook.mp4)
+<video width="1000" height="600" controls>
+  <source src="img/13-CodeWhisperer-SageMaker-Studio-Notebook.mp4" type="video/mp4">
+</video>
+
 
 3. VS Code 에서 Security SCan 데모
-- ![14-CodeWhisperer-Security-Scan.mp4](img/14-CodeWhisperer-Security-Scan.mp4)
-
-    
+<video width="1000" height="600" controls>
+  <source src="img/14-CodeWhisperer-Security-Scan.mp4" type="video/mp4">
+</video>
