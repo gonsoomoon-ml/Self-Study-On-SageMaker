@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.06.10**
+**마지막 업데이트: 2023.08.13**
 
 ### 컨텐츠 레벨 가이드:
     - 일부 컨텐츠는 레벨 가이드가 있습니다.
@@ -9,17 +9,8 @@
     - <Level 300-400>: 고급    
     
 ### 신규 컨텐츠:
-- <font color="green">[Hot Update]</font> <Level 200-300> 2022 re:Invent
-    - 42 AI/ML New Feature and Breakout 세션--> [전체 세션 목록](https://www.youtube.com/playlist?list=PL2yQDdvlhXf9XsB2W76_seM6dJxcE2Pdc)
-- <font color="green">[Hot Update]</font> <Level 200-300> 2022 AWS Seoul Summit
-    - 80+ 세션 (SageMaker 세션은 아래 "3. AWS AI/ML 리소스 허브, 특집 이벤트 및 AWS ML 전문가 링크" 참고 하세요.) --> [전체 세션 목록](https://m.youtube.com/playlist?list=PLORxAVAC5fUX7j65Uvp9xAi1hMS6M-2P1)
-- <font color="green">[Hot Update]</font> <Level 200-400> 2022 AWS AIML 스페셜 웹비나
-    - 12+ 세션 (SageMaker, Personalize)
-        - SageMaker 는 초급/중급 수준의 SageMaker 입문, 모델 훈련, 배포 및 추론, ML Ops (SageMaker Pipeline) 에 대한 모듈별 비디오가 있습니다.
-        - [전체 세션 목록](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
-- <font color="green">[Hot Update]</font> <Level 200-300> AWS 머신 러닝 블로그를 전문가가 설명해주기:
-    - [10분만에 따라잡는 AWS 머신러닝](https://www.youtube.com/playlist?list=PLORxAVAC5fUW3U4KlNCg7BNctpJMMjUV8)
-
+- <font color="green">[Hot Update]</font> <Level 200-300> SageMaker 로 "생산성" 올리기 (Amazon CodeWhisperer 등)
+    - [SageMaker 로 "생산성" 올리기 ](Environment/README.md)
 ---
 
 **이 문서의 목적은  혼자 SageMaker 의 학습을 하기 위한 자료 및 링크가 있습니다. 아래와 같은 큰 목차에 관련 정보가 있으니 참고 하세요.**
@@ -49,6 +40,7 @@
     - [세이지 메이커 유용한 명령어](UsefulCommand/README.md)    
     - [세이지 메이커 비용 최적화](Cost_Optimization/README.md)
     - [Tabular 데이터 피쳐 선택 가이드](data_preparation/Feature_Selection_Guide.md)
+    - [New Updates](New_Contents/README.md)
 
     
 
