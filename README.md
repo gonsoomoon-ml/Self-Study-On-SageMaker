@@ -1,6 +1,6 @@
 # Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.08.19**
+**마지막 업데이트: 2023.09.04**
 
 ### 컨텐츠 레벨 가이드:
     - 일부 컨텐츠는 레벨 가이드가 있습니다.
@@ -107,31 +107,22 @@
 * Introduction to Amazon SageMaker (12분)
     * 코세라 공식 세이지 메이커 소개 비디오
     * https://www.coursera.org/lecture/aws-machine-learning/introduction-to-amazon-sagemaker-QugTh
-
-
 * Amazon SageMaker Deep Dive Series **(아래 두개만 일단 보셔도 됩니다. 각 비디오가 약 10-20분 사이 입니다.)**
     * https://www.youtube.com/playlist?list=PLhr1KZpdzukcOr_6j_zmSrvYnLUtgqsZz
         * Fully-Managed Notebook Instanaces with Amazon SageMaker - a Deep Dive
         * Built-in Machine Learning Algorithms with Amazon SageMaker - a Deep Dive
-
-
 * SageMaker 데이터 전처리, 모델 빌딩, 훈련 및 배포 (원제: SageMaker Pipelines 을 Step by Step 으로 배우기 )
     - https://www.youtube.com/watch?v=7IL_0-OjZWk
-
-
-
 * <Level 100-200> SageMaker 최초 실습
-    *  한글 워크샵 사이트(https://www.sagemaker-workshop-kr.com/kr)에서 다음 두 모듈을 진행합니다.(빌트인 알고리즘 활용)
-        * `o` 모듈1 SageMaker > S3 bucket과 노트북 생성하기 - https://www.sagemaker-workshop-kr.com/kr/sagemaker/_module_1.html
-        * `o` 모듈2 Linear Learner MNIST - https://www.sagemaker-workshop-kr.com/kr/sagemaker/_module_2.html
     * 기본 Tabular 데이터를 사용: Tabular 데이타를 모델 빌딩, 훈련, 배포, 추론을 해볼 수 있는 예제 입니다.
     * 아래에서 아래 세 개의 노트북만을 진행 함.
         * Warmingup1 - 오픈소스 XGBoost getting-started 
         * Warmingup2 - Warmingup1 예제를 Sagemaker에서 동작하도록 수정하기 
         * 다이렉트 마케팅 (SageMaker 내장 알고리즘 XGBoost 사용)
             * https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/xgboost
-
-
+    - SageMaker Immersion Day 워크샵을 기본 핸즈온으로 하시는 것을 권장 드립니다.
+        - [SageMaker Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/63069e26-921c-4ce1-9cc7-dd882ff62575/en-US)
+        - 기본가정으로 Lab1, Lab2, Lab3, Lab4 까지 해보시고, 이후는 필요할데 하시면 좋겠습니다.
 * 아래는 **공식 AWS 머신 러닝의 교육** 에 사용되는 많은 유용한 링크가 있는 Git 입니다. 꼭 한 번 눌러 봐주세요.
     - [The Machine Learning pipeline on AWS](https://github.com/serithemage/AWS_AI_Study/tree/master/ML_Pipeline)
 * SageMaker JumpStart 입니다. 미리 만들어진 솔루션, 알고리즘 등이 있어서 샘플코드를 가지고 사직하기에 좋습니다. 개발자 가이드 문서이니 한번 보시는 것을 권장 드립니다.
@@ -232,7 +223,7 @@
             -  <Level 200-300> [NLP 텍스트 분류를 위한 Hugging Face on SageMaker 워크샵](https://github.com/gonsoomoon-ml/NLP-HuggingFace-On-SageMaker)
             - [Level 200-300] [Amazon SageMaker 기반 한국어 자연어 처리 샘플](https://github.com/daekeun-ml/sm-kornlp-usecases)
             * [Level 200-300] 토픽 모델링을 사용한 온라인 상품 부정 리뷰 분석: https://github.com/gonsoomoon-ml/topic-modeling
-            * <Level 100-200> 빌트인 알고리즘을 이용한 한글처리 - https://github.com/daekeun-ml/blazingtext-workshop-korean
+            * <Level 100-200> 빌트인 알고리즘을 이용한처리 - https://github.com/daekeun-ml/blazingtext-workshop-korean
             * BERT 이용한 한글처리 - https://github.com/daekeun-ml/kobert-workshop
         * 영상 (Vision)
             * <Level 200-300> 이미지의 피쳐 벡터 및 Elastic Search 를 통해 이미지 검색 만들기
