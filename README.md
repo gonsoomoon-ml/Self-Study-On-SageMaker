@@ -9,8 +9,12 @@
     - <Level 300-400>: 고급    
     
 ### 신규 컨텐츠:
+- <font color="green">[Hot Update]</font> <Level 200-300> 기존의 새로운 기능 추가에 초점이 맞추어진 aws-sagemaker-samples 에서 사용율이 높은 노트북을 선정하였고, 지속적으로 현업데 사용 가능한 노트북을 위한 깃 입니다. 
+    - [New: SageMaker Community Example](https://github.com/aws/amazon-sagemaker-examples-community)
+    - [aws-sagemaker-sampels](https://github.com/aws/amazon-sagemaker-examples)
 - <font color="green">[Hot Update]</font> <Level 200-300> SageMaker 로 "생산성" 올리기 (Amazon CodeWhisperer 등)
     - [SageMaker 로 "생산성" 올리기 ](Environment/README.md)
+    
 ---
 
 **이 문서의 목적은  혼자 SageMaker 의 학습을 하기 위한 자료 및 링크가 있습니다. 아래와 같은 큰 목차에 관련 정보가 있으니 참고 하세요.**
