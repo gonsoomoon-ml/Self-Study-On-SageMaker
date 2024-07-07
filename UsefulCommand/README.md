@@ -16,6 +16,23 @@
 
 # 2. 개발 환경
 ---
+### \# SageMaker Notebook Instance 에 VS Code 사용
+- 터미널을 열고 아래를 실행 합니다.
+    ```
+    curl -LO https://github.com/aws-samples/amazon-sagemaker-codeserver/releases/download/v0.2.0/amazon-sagemaker-codeserver-0.2.0.tar.gz
+    tar -xvzf amazon-sagemaker-codeserver-0.2.0.tar.gz
+
+    cd amazon-sagemaker-codeserver/install-scripts/notebook-instances
+    
+    chmod +x install-codeserver.sh
+    chmod +x setup-codeserver.sh
+    sudo ./install-codeserver.sh
+    sudo ./setup-codeserver.sh
+    ```
+- 설치가 완료되면, 페이지를 Refresh 를 합니다.
+- 이후에 아래와 같이 File --> New Launcher 를 클릭하면 , Launcher 가 실행이 되고, 오른쪽 하단에 Code Server 를 클릭 하시면 딥니다. 
+    - ![launcher.png](img/launcher.png)
+
 ### \# SageMaker Notebook Instance 에서 Cell 실행 유무 확인
 
 노트북에서 작업을 하다면 보면, 실행 시간이 오래 걸리는 작업이 있습니다. (예: 데이터 전처리, 훈련 등). 노트북의 셀을 실행하면 야래 박스의 (1) 처럼 \'*\' 가 생성이 됩니다. 이를 통해서 실행 여부를 알 수 있고, 또한 (2) 를 통해서 알 수 있습니다. 또한 (3) 처럼 터미널에서 `top -u ec2-user` 를 실행하면 (3) 에서 셀로 실행한 프로세스가 실행되는 것을 %CPU 로 확인 할수 있습니다. 
