@@ -1,4 +1,4 @@
-# Inference Optimization : Self-Study-On-SageMaker
+# SageMaker Inference Optimization : Self-Study-On-SageMaker
 
 **마지막 업데이트: 2024.07.21**
 
