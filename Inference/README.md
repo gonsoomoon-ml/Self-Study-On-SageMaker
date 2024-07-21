@@ -1,12 +1,15 @@
 # Inference : Self-Study-On-SageMaker
 
-**마지막 업데이트: 2023.07.20**
+**마지막 업데이트: 2024.07.21**
 
 
 ---
+# \# Recent Update
+- [July 2024 : Inference Optimization ](Inference-Optimization-README.md)
+- [July 2023 : Foundation Model (FM) 배포 및 추론](FM-README.md)
+- [July 2023 : Inference with Appliacton](Application-README.md)
 
-## * [New : Foundation Model (FM) 배포 및 추론](FM-README.md)
-## * [New : Inference with Appliacton](Application-README.md)
+---
 
 # 0. 세이지 메이커 배포 및 추론 입문
 - 전반적인 추론 과정의 전체와 아키텍처를 잘 설명 합니다.
